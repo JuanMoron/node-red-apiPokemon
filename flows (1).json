@@ -1,0 +1,882 @@
+[
+    {
+        "id": "97e7b75be390e3e7",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "19a22018284eaacd",
+        "type": "tab",
+        "label": "Flow 2",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "89ccf62e51daa380",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#59d0f7",
+                "baseFont": "Courier,monospace",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "reset": false
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": true
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#59d0f7",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#a2e5fb",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#59d0f7",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "Courier,monospace"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "f401e6bf95d42be4",
+        "type": "ui_tab",
+        "name": "Filtro tipos pokemon",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "6c21f2c9328ad961",
+        "type": "ui_group",
+        "name": "Agua",
+        "tab": "f401e6bf95d42be4",
+        "order": 1,
+        "disp": true,
+        "width": 6,
+        "collapse": false
+    },
+    {
+        "id": "ad22f3f61ba23587",
+        "type": "ui_group",
+        "name": "Fuego",
+        "tab": "f401e6bf95d42be4",
+        "order": 2,
+        "disp": true,
+        "width": 6,
+        "collapse": false
+    },
+    {
+        "id": "161c51ef9e739893",
+        "type": "ui_group",
+        "name": "Planta",
+        "tab": "f401e6bf95d42be4",
+        "order": 3,
+        "disp": true,
+        "width": 6,
+        "collapse": false
+    },
+    {
+        "id": "48b67d6aab756ca4",
+        "type": "ui_group",
+        "name": "Eléctrico",
+        "tab": "f401e6bf95d42be4",
+        "order": 4,
+        "disp": true,
+        "width": 6,
+        "collapse": false
+    },
+    {
+        "id": "43b3e35e2e205352",
+        "type": "ui_spacer",
+        "z": "97e7b75be390e3e7",
+        "name": "spacer",
+        "group": "161c51ef9e739893",
+        "order": 23,
+        "width": 6,
+        "height": "21"
+    },
+    {
+        "id": "b940b35cd141c375",
+        "type": "ui_spacer",
+        "z": "97e7b75be390e3e7",
+        "name": "spacer",
+        "group": "48b67d6aab756ca4",
+        "order": 24,
+        "width": 6,
+        "height": "20"
+    },
+    {
+        "id": "8b84ac9d6be56c2e",
+        "type": "ui_spacer",
+        "z": "97e7b75be390e3e7",
+        "name": "spacer",
+        "group": "6c21f2c9328ad961",
+        "order": 2,
+        "width": "6",
+        "height": "20"
+    },
+    {
+        "id": "b728e47eabf27e1b",
+        "type": "ui_spacer",
+        "z": "97e7b75be390e3e7",
+        "name": "spacer",
+        "group": "ad22f3f61ba23587",
+        "order": 2,
+        "width": "6",
+        "height": "13"
+    },
+    {
+        "id": "ec9e40a459682ad8",
+        "type": "ui_tab",
+        "name": "Pokedex",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "1e22113e87b6dbce",
+        "type": "ui_group",
+        "name": "Pikachu",
+        "tab": "ec9e40a459682ad8",
+        "order": 1,
+        "disp": true,
+        "width": "10",
+        "collapse": false
+    },
+    {
+        "id": "760437d5.268b98",
+        "type": "mqtt-broker",
+        "name": "localhost broker",
+        "broker": "localhost",
+        "port": "1883",
+        "clientid": "",
+        "usetls": false,
+        "compatmode": true,
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": ""
+    },
+    {
+        "id": "44c36f52e2cd4637",
+        "type": "ui_group",
+        "name": "Detalles",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "2e257ac9c0d30e0f",
+        "type": "ui_group",
+        "name": "Squirtle",
+        "tab": "ec9e40a459682ad8",
+        "order": 2,
+        "disp": true,
+        "width": "10",
+        "collapse": false
+    },
+    {
+        "id": "b1f1b26d60acf2a5",
+        "type": "ui_group",
+        "name": "Charmander",
+        "tab": "ec9e40a459682ad8",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "a94ef9efd7fddf02",
+        "type": "http request",
+        "z": "97e7b75be390e3e7",
+        "name": "F",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "https://pokeapi.co/api/v2/type/fire",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "x": 290,
+        "y": 20,
+        "wires": [
+            [
+                "6fe51c87c69e2881"
+            ]
+        ]
+    },
+    {
+        "id": "81972e3cd036e670",
+        "type": "inject",
+        "z": "97e7b75be390e3e7",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payloadType": "date",
+        "x": 100,
+        "y": 140,
+        "wires": [
+            [
+                "a94ef9efd7fddf02",
+                "7edd95b7ef74e231",
+                "8013837757ba6379",
+                "488752f3603386e3"
+            ]
+        ]
+    },
+    {
+        "id": "d7a24a247cfc30c9",
+        "type": "debug",
+        "z": "97e7b75be390e3e7",
+        "name": "Fire",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 770,
+        "y": 20,
+        "wires": []
+    },
+    {
+        "id": "7edd95b7ef74e231",
+        "type": "http request",
+        "z": "97e7b75be390e3e7",
+        "name": "W",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "https://pokeapi.co/api/v2/type/water",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "x": 290,
+        "y": 100,
+        "wires": [
+            [
+                "3806d9e5e3a28705"
+            ]
+        ]
+    },
+    {
+        "id": "839a661a6bbf9b73",
+        "type": "debug",
+        "z": "97e7b75be390e3e7",
+        "name": "Water",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 770,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "e1c5753805bfa30c",
+        "type": "ui_text",
+        "z": "97e7b75be390e3e7",
+        "group": "ad22f3f61ba23587",
+        "order": 3,
+        "width": "6",
+        "height": "4",
+        "name": "TipoFuego",
+        "label": "Listado",
+        "format": "{{msg.payload.pokemon.length}}<br><br>{{msg.payload.pokemon[0].pokemon.name}}<br>{{msg.payload.pokemon[1].pokemon.name}}<br>{{msg.payload.pokemon[2].pokemon.name}}<br>{{msg.payload.pokemon[3].pokemon.name}}<br>{{msg.payload.pokemon[4].pokemon.name}}<br>{{msg.payload.pokemon[5].pokemon.name}}<br>{{msg.payload.pokemon[6].pokemon.name}}<br>{{msg.payload.pokemon[7].pokemon.name}}<br>{{msg.payload.pokemon[8].pokemon.name}}<br>{{msg.payload.pokemon[9].pokemon.name}}<br>{{msg.payload.pokemon[10].pokemon.name}}<br>{{msg.payload.pokemon[11].pokemon.name}}<br>{{msg.payload.pokemon[12].pokemon.name}}<br>{{msg.payload.pokemon[13].pokemon.name}}<br>{{msg.payload.pokemon[14].pokemon.name}}<br>{{msg.payload.pokemon[15].pokemon.name}}<br>{{msg.payload.pokemon[16].pokemon.name}}<br>{{msg.payload.pokemon[17].pokemon.name}}<br>{{msg.payload.pokemon[18].pokemon.name}}<br>{{msg.payload.pokemon[19].pokemon.name}}<br>{{msg.payload.pokemon[20].pokemon.name}}<br> {{msg.payload.pokemon[21].pokemon.name}}<br> {{msg.payload.pokemon[22].pokemon.name}}<br> {{msg.payload.pokemon[23].pokemon.name}}<br> {{msg.payload.pokemon[24].pokemon.name}}<br> {{msg.payload.pokemon[25].pokemon.name}}<br> {{msg.payload.pokemon[26].pokemon.name}}<br> {{msg.payload.pokemon[27].pokemon.name}}<br> {{msg.payload.pokemon[28].pokemon.name}}<br> {{msg.payload.pokemon[29].pokemon.name}}<br> {{msg.payload.pokemon[30].pokemon.name}}<br> {{msg.payload.pokemon[31].pokemon.name}}<br> {{msg.payload.pokemon[32].pokemon.name}}<br> {{msg.payload.pokemon[33].pokemon.name}}<br> {{msg.payload.pokemon[34].pokemon.name}}<br> {{msg.payload.pokemon[35].pokemon.name}}<br> {{msg.payload.pokemon[36].pokemon.name}}<br> {{msg.payload.pokemon[37].pokemon.name}}<br> {{msg.payload.pokemon[38].pokemon.name}}<br> {{msg.payload.pokemon[39].pokemon.name}}<br> {{msg.payload.pokemon[40].pokemon.name}}<br> {{msg.payload.pokemon[41].pokemon.name}}<br> {{msg.payload.pokemon[42].pokemon.name}}<br> {{msg.payload.pokemon[43].pokemon.name}}<br> {{msg.payload.pokemon[44].pokemon.name}}<br> {{msg.payload.pokemon[45].pokemon.name}}<br> {{msg.payload.pokemon[46].pokemon.name}}<br> {{msg.payload.pokemon[47].pokemon.name}}<br> {{msg.payload.pokemon[48].pokemon.name}}<br> {{msg.payload.pokemon[49].pokemon.name}}<br> {{msg.payload.pokemon[50].pokemon.name}}<br> {{msg.payload.pokemon[51].pokemon.name}}<br> {{msg.payload.pokemon[52].pokemon.name}}<br> {{msg.payload.pokemon[53].pokemon.name}}<br> {{msg.payload.pokemon[54].pokemon.name}}<br> {{msg.payload.pokemon[55].pokemon.name}}<br> {{msg.payload.pokemon[56].pokemon.name}}<br> {{msg.payload.pokemon[57].pokemon.name}}<br> {{msg.payload.pokemon[58].pokemon.name}}<br> {{msg.payload.pokemon[58].pokemon.name}}<br> {{msg.payload.pokemon[60].pokemon.name}}<br> {{msg.payload.pokemon[61].pokemon.name}}<br> {{msg.payload.pokemon[62].pokemon.name}}<br> {{msg.payload.pokemon[63].pokemon.name}}<br> {{msg.payload.pokemon[64].pokemon.name}}<br> {{msg.payload.pokemon[65].pokemon.name}}<br> {{msg.payload.pokemon[66].pokemon.name}}<br> {{msg.payload.pokemon[67].pokemon.name}}<br> {{msg.payload.pokemon[68].pokemon.name}}<br> {{msg.payload.pokemon[69].pokemon.name}}<br> {{msg.payload.pokemon[70].pokemon.name}}<br> {{msg.payload.pokemon[71].pokemon.name}}<br> {{msg.payload.pokemon[72].pokemon.name}}<br> {{msg.payload.pokemon[73].pokemon.name}}<br> {{msg.payload.pokemon[74].pokemon.name}}<br> {{msg.payload.pokemon[75].pokemon.name}}<br> {{msg.payload.pokemon[76].pokemon.name}}<br> {{msg.payload.pokemon[77].pokemon.name}}<br> {{msg.payload.pokemon[78].pokemon.name}}<br> {{msg.payload.pokemon[79].pokemon.name}}<br> {{msg.payload.pokemon[80].pokemon.name}}<br> {{msg.payload.pokemon[81].pokemon.name}}<br> {{msg.payload.pokemon[82].pokemon.name}}<br> {{msg.payload.pokemon[83].pokemon.name}}<br> {{msg.payload.pokemon[84].pokemon.name}}<br> {{msg.payload.pokemon[85].pokemon.name}}<br> {{msg.payload.pokemon[86].pokemon.name}}<br> {{msg.payload.pokemon[87].pokemon.name}}<br> {{msg.payload.pokemon[88].pokemon.name}}",
+        "layout": "col-center",
+        "x": 610,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "6fe51c87c69e2881",
+        "type": "ui_switch",
+        "z": "97e7b75be390e3e7",
+        "name": "Mostrar",
+        "label": "Ocultar / Mostrar",
+        "tooltip": "",
+        "group": "ad22f3f61ba23587",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "{     \"pokemon\": [         {             \"pokemon\": {                 \"name\": \"charmander\",                 \"url\": \"https://pokeapi.co/api/v2/pokemon/4/\"             },             \"slot\": 1         },         {             \"pokemon\": {                 \"name\": \"charmeleon\",                 \"url\": \"https://pokeapi.co/api/v2/pokemon/5/\"             },             \"slot\": 1         },         {             \"pokemon\": {                 \"name\": \"charizard\",                 \"url\": \"https://pokeapi.co/api/v2/pokemon/6/\"             },             \"slot\": 1         },         {             \"pokemon\": {                 \"name\": \"vulpix\",                 \"url\": \"https://pokeapi.co/api/v2/pokemon/37/\"             },             \"slot\": 1         },         {             \"pokemon\": {                 \"name\": \"ninetales\",                 \"url\": \"https://pokeapi.co/api/v2/pokemon/38/\"             },             \"slot\": 1         },         {             \"pokemon\": {                 \"name\": \"growlithe\",                 \"url\": \"https://pokeapi.co/api/v2/pokemon/58/\"             },             \"slot\": 1         },         {             \"pokemon\": {                 \"name\": \"arcanine\",                 \"url\": \"https://pokeapi.co/api/v2/pokemon/59/\"             },             \"slot\": 1         },         {             \"pokemon\": {                 \"name\": \"ponyta\",                 \"url\": \"https://pokeapi.co/api/v2/pokemon/77/\"             },             \"slot\": 1         },         {             \"pokemon\": {                 \"name\": \"rapidash\",                 \"url\": \"https://pokeapi.co/api/v2/pokemon/78/\"             },             \"slot\": 1         },         {             \"pokemon\": {                 \"name\": \"magmar\",                 \"url\": \"https://pokeapi.co/api/v2/pokemon/126/\"             },             \"slot\": 1         },         {             \"pokemon\": {                 \"name\": \"flareon\",                 \"url\": \"https://pokeapi.co/api/v2/pokemon/136/\"             },             \"slot\": 1         },         {             \"pokemon\": {                 \"name\": \"moltres\",                 \"url\": \"https://pokeapi.co/api/v2/pokemon/146/\"             },             \"slot\": 1         },         {             \"pokemon\": {                 \"name\": \"cyndaquil\",                 \"url\": \"https://pokeapi.co/api/v2/pokemon/155/\"             },             \"slot\": 1         },         {             \"pokemon\": {                 \"name\": \"quilava\",                 \"url\": \"https://pokeapi.co/api/v2/pokemon/156/\"             },             \"slot\": 1         },         {             \"pokemon\": {                 \"name\": \"typhlosion\",                 \"url\": \"https://pokeapi.co/api/v2/pokemon/157/\"             },             \"slot\": 1         },         {             \"pokemon\": {                 \"name\": \"slugma\",                 \"url\": \"https://pokeapi.co/api/v2/pokemon/218/\"             },             \"slot\": 1         },         {             \"pokemon\": {                 \"name\": \"magcargo\",                 \"url\": \"https://pokeapi.co/api/v2/pokemon/219/\"             },             \"slot\": 1         },         {             \"pokemon\": {                 \"name\": \"houndour\",                 \"url\": \"https://pokeapi.co/api/v2/pokemon/228/\"             },             \"slot\": 2         },         {             \"pokemon\": {                 \"name\": \"houndoom\",                 \"url\": \"https://pokeapi.co/api/v2/pokemon/229/\"             },             \"slot\": 2         },         {             \"pokemon\": {                 \"name\": \"magby\",                 \"url\": \"https://pokeapi.co/api/v2/pokemon/240/\"             },             \"slot\": 1         },         {             \"pokemon\": {                 \"name\": \"entei\",                 \"url\": \"https://pokeapi.co/api/v2/pokemon/244/\"             },             \"slot\": 1         },         {             \"pokemon\": {                 \"name\": \"ho-oh\",                 \"url\": \"https://pokeapi.co/api/v2/pokemon/250/\"             },             \"slot\": 1         },         {             \"pokemon\": {                 \"name\": \"torchic\",                 \"url\": \"https://pokeapi.co/api/v2/pokemon/255/\"             },             \"slot\": 1         },         {             \"pokemon\": {                 \"name\": \"combusken\",                 \"url\": \"https://pokeapi.co/api/v2/pokemon/256/\"             },             \"slot\": 1         },         {             \"pokemon\": {                 \"name\": \"blaziken\",                 \"url\": \"https://pokeapi.co/api/v2/pokemon/257/\"             },             \"slot\": 1         },         {             \"pokemon\": {                 \"name\": \"numel\",                 \"url\": \"https://pokeapi.co/api/v2/pokemon/322/\"             },             \"slot\": 1         },         {             \"pokemon\": {                 \"name\": \"camerupt\",                 \"url\": \"https://pokeapi.co/api/v2/pokemon/323/\"             },             \"slot\": 1         },         {             \"pokemon\": {                 \"name\": \"torkoal\",                 \"url\": \"https://pokeapi.co/api/v2/pokemon/324/\"             },             \"slot\": 1         },         {             \"pokemon\": {                 \"name\": \"chimchar\",                 \"url\": \"https://pokeapi.co/api/v2/pokemon/390/\"             },             \"slot\": 1         },         {             \"pokemon\": {                 \"name\": \"monferno\",                 \"url\": \"https://pokeapi.co/api/v2/pokemon/391/\"             },             \"slot\": 1         },         {             \"pokemon\": {                 \"name\": \"infernape\",                 \"url\": \"https://pokeapi.co/api/v2/pokemon/392/\"             },             \"slot\": 1         },         {             \"pokemon\": {                 \"name\": \"magmortar\",                 \"url\": \"https://pokeapi.co/api/v2/pokemon/467/\"             },             \"slot\": 1         },         {             \"pokemon\": {                 \"name\": \"heatran\",                 \"url\": \"https://pokeapi.co/api/v2/pokemon/485/\"             },             \"slot\": 1         },         {             \"pokemon\": {                 \"name\": \"victini\",                 \"url\": \"https://pokeapi.co/api/v2/pokemon/494/\"             },             \"slot\": 2         },         {             \"pokemon\": {                 \"name\": \"tepig\",                 \"url\": \"https://pokeapi.co/api/v2/pokemon/498/\"             },             \"slot\": 1         },         {             \"pokemon\": {                 \"name\": \"pignite\",                 \"url\": \"https://pokeapi.co/api/v2/pokemon/499/\"             },             \"slot\": 1         },         {             \"pokemon\": {                 \"name\": \"emboar\",                 \"url\": \"https://pokeapi.co/api/v2/pokemon/500/\"             },             \"slot\": 1         },         {             \"pokemon\": {                 \"name\": \"pansear\",                 \"url\": \"https://pokeapi.co/api/v2/pokemon/513/\"             },             \"slot\": 1         },         {             \"pokemon\": {                 \"name\": \"simisear\",                 \"url\": \"https://pokeapi.co/api/v2/pokemon/514/\"             },             \"slot\": 1         },         {             \"pokemon\": {                 \"name\": \"darumaka\",                 \"url\": \"https://pokeapi.co/api/v2/pokemon/554/\"             },             \"slot\": 1         },         {             \"pokemon\": {                 \"name\": \"darmanitan-standard\",                 \"url\": \"https://pokeapi.co/api/v2/pokemon/555/\"             },             \"slot\": 1         },         {             \"pokemon\": {                 \"name\": \"litwick\",                 \"url\": \"https://pokeapi.co/api/v2/pokemon/607/\"             },             \"slot\": 2         },         {             \"pokemon\": {                 \"name\": \"lampent\",                 \"url\": \"https://pokeapi.co/api/v2/pokemon/608/\"             },             \"slot\": 2         },         {             \"pokemon\": {                 \"name\": \"chandelure\",                 \"url\": \"https://pokeapi.co/api/v2/pokemon/609/\"             },             \"slot\": 2         },         {             \"pokemon\": {                 \"name\": \"heatmor\",                 \"url\": \"https://pokeapi.co/api/v2/pokemon/631/\"             },             \"slot\": 1         },         {             \"pokemon\": {                 \"name\": \"larvesta\",                 \"url\": \"https://pokeapi.co/api/v2/pokemon/636/\"             },             \"slot\": 2         },         {             \"pokemon\": {                 \"name\": \"volcarona\",                 \"url\": \"https://pokeapi.co/api/v2/pokemon/637/\"             },             \"slot\": 2         },         {             \"pokemon\": {                 \"name\": \"reshiram\",                 \"url\": \"https://pokeapi.co/api/v2/pokemon/643/\"             },             \"slot\": 2         },         {             \"pokemon\": {                 \"name\": \"fennekin\",                 \"url\": \"https://pokeapi.co/api/v2/pokemon/653/\"             },             \"slot\": 1         },         {             \"pokemon\": {                 \"name\": \"braixen\",                 \"url\": \"https://pokeapi.co/api/v2/pokemon/654/\"             },             \"slot\": 1         },         {             \"pokemon\": {                 \"name\": \"delphox\",                 \"url\": \"https://pokeapi.co/api/v2/pokemon/655/\"             },             \"slot\": 1         },         {             \"pokemon\": {                 \"name\": \"fletchinder\",                 \"url\": \"https://pokeapi.co/api/v2/pokemon/662/\"             },             \"slot\": 1         },         {             \"pokemon\": {                 \"name\": \"talonflame\",                 \"url\": \"https://pokeapi.co/api/v2/pokemon/663/\"             },             \"slot\": 1         },         {             \"pokemon\": {                 \"name\": \"litleo\",                 \"url\": \"https://pokeapi.co/api/v2/pokemon/667/\"             },             \"slot\": 1         },         {             \"pokemon\": {                 \"name\": \"pyroar\",                 \"url\": \"https://pokeapi.co/api/v2/pokemon/668/\"             },             \"slot\": 1         },         {             \"pokemon\": {                 \"name\": \"volcanion\",                 \"url\": \"https://pokeapi.co/api/v2/pokemon/721/\"             },             \"slot\": 1         },         {             \"pokemon\": {                 \"name\": \"litten\",                 \"url\": \"https://pokeapi.co/api/v2/pokemon/725/\"             },             \"slot\": 1         },         {             \"pokemon\": {                 \"name\": \"torracat\",                 \"url\": \"https://pokeapi.co/api/v2/pokemon/726/\"             },             \"slot\": 1         },         {             \"pokemon\": {                 \"name\": \"incineroar\",                 \"url\": \"https://pokeapi.co/api/v2/pokemon/727/\"             },             \"slot\": 1         },         {             \"pokemon\": {                 \"name\": \"oricorio-baile\",                 \"url\": \"https://pokeapi.co/api/v2/pokemon/741/\"             },             \"slot\": 1         },         {             \"pokemon\": {                 \"name\": \"salandit\",                 \"url\": \"https://pokeapi.co/api/v2/pokemon/757/\"             },             \"slot\": 2         },         {             \"pokemon\": {                 \"name\": \"salazzle\",                 \"url\": \"https://pokeapi.co/api/v2/pokemon/758/\"             },             \"slot\": 2         },         {             \"pokemon\": {                 \"name\": \"turtonator\",                 \"url\": \"https://pokeapi.co/api/v2/pokemon/776/\"             },             \"slot\": 1         },         {             \"pokemon\": {                 \"name\": \"blacephalon\",                 \"url\": \"https://pokeapi.co/api/v2/pokemon/806/\"             },             \"slot\": 1         },         {             \"pokemon\": {                 \"name\": \"scorbunny\",                 \"url\": \"https://pokeapi.co/api/v2/pokemon/813/\"             },             \"slot\": 1         },         {             \"pokemon\": {                 \"name\": \"raboot\",                 \"url\": \"https://pokeapi.co/api/v2/pokemon/814/\"             },             \"slot\": 1         },         {             \"pokemon\": {                 \"name\": \"cinderace\",                 \"url\": \"https://pokeapi.co/api/v2/pokemon/815/\"             },             \"slot\": 1         },         {             \"pokemon\": {                 \"name\": \"carkol\",                 \"url\": \"https://pokeapi.co/api/v2/pokemon/838/\"             },             \"slot\": 2         },         {             \"pokemon\": {                 \"name\": \"coalossal\",                 \"url\": \"https://pokeapi.co/api/v2/pokemon/839/\"             },             \"slot\": 2         },         {             \"pokemon\": {                 \"name\": \"sizzlipede\",                 \"url\": \"https://pokeapi.co/api/v2/pokemon/850/\"             },             \"slot\": 1         },         {             \"pokemon\": {                 \"name\": \"centiskorch\",                 \"url\": \"https://pokeapi.co/api/v2/pokemon/851/\"             },             \"slot\": 1         },         {             \"pokemon\": {                 \"name\": \"rotom-heat\",                 \"url\": \"https://pokeapi.co/api/v2/pokemon/10008/\"             },             \"slot\": 2         },         {             \"pokemon\": {                 \"name\": \"castform-sunny\",                 \"url\": \"https://pokeapi.co/api/v2/pokemon/10013/\"             },             \"slot\": 1         },         {             \"pokemon\": {                 \"name\": \"darmanitan-zen\",                 \"url\": \"https://pokeapi.co/api/v2/pokemon/10017/\"             },             \"slot\": 1         },         {             \"pokemon\": {                 \"name\": \"charizard-mega-x\",                 \"url\": \"https://pokeapi.co/api/v2/pokemon/10034/\"             },             \"slot\": 1         },         {             \"pokemon\": {                 \"name\": \"charizard-mega-y\",                 \"url\": \"https://pokeapi.co/api/v2/pokemon/10035/\"             },             \"slot\": 1         },         {             \"pokemon\": {                 \"name\": \"houndoom-mega\",                 \"url\": \"https://pokeapi.co/api/v2/pokemon/10048/\"             },             \"slot\": 2         },         {             \"pokemon\": {                 \"name\": \"blaziken-mega\",                 \"url\": \"https://pokeapi.co/api/v2/pokemon/10050/\"             },             \"slot\": 1         },         {             \"pokemon\": {                 \"name\": \"groudon-primal\",                 \"url\": \"https://pokeapi.co/api/v2/pokemon/10078/\"             },             \"slot\": 2         },         {             \"pokemon\": {                 \"name\": \"camerupt-mega\",                 \"url\": \"https://pokeapi.co/api/v2/pokemon/10087/\"             },             \"slot\": 1         },         {             \"pokemon\": {                 \"name\": \"marowak-alola\",                 \"url\": \"https://pokeapi.co/api/v2/pokemon/10115/\"             },             \"slot\": 1         },         {             \"pokemon\": {                 \"name\": \"salazzle-totem\",                 \"url\": \"https://pokeapi.co/api/v2/pokemon/10129/\"             },             \"slot\": 2         },         {             \"pokemon\": {                 \"name\": \"marowak-totem\",                 \"url\": \"https://pokeapi.co/api/v2/pokemon/10149/\"             },             \"slot\": 1         },         {             \"pokemon\": {                 \"name\": \"darmanitan-zen-galar\",                 \"url\": \"https://pokeapi.co/api/v2/pokemon/10175/\"             },             \"slot\": 2         },         {             \"pokemon\": {                 \"name\": \"charizard-gmax\",                 \"url\": \"https://pokeapi.co/api/v2/pokemon/10187/\"             },             \"slot\": 1         },         {             \"pokemon\": {                 \"name\": \"cinderace-gmax\",                 \"url\": \"https://pokeapi.co/api/v2/pokemon/10201/\"             },             \"slot\": 1         },         {             \"pokemon\": {                 \"name\": \"coalossal-gmax\",                 \"url\": \"https://pokeapi.co/api/v2/pokemon/10206/\"             },             \"slot\": 2         },         {             \"pokemon\": {                 \"name\": \"centiskorch-gmax\",                 \"url\": \"https://pokeapi.co/api/v2/pokemon/10211/\"             },             \"slot\": 1         }     ] }",
+        "onvalueType": "json",
+        "onicon": "close",
+        "oncolor": "blue",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "search",
+        "offcolor": "red",
+        "animate": false,
+        "x": 460,
+        "y": 20,
+        "wires": [
+            [
+                "e1c5753805bfa30c",
+                "d7a24a247cfc30c9"
+            ]
+        ]
+    },
+    {
+        "id": "3806d9e5e3a28705",
+        "type": "ui_switch",
+        "z": "97e7b75be390e3e7",
+        "name": "Mostrar",
+        "label": "Ocultar / Mostrar",
+        "tooltip": "Filtrar",
+        "group": "6c21f2c9328ad961",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "{\"pokemon\":[{\"pokemon\":{\"name\":\"squirtle\",\"url\":\"https://pokeapi.co/api/v2/pokemon/7/\"},\"slot\":1},{\"pokemon\":{\"name\":\"wartortle\",\"url\":\"https://pokeapi.co/api/v2/pokemon/8/\"},\"slot\":1},{\"pokemon\":{\"name\":\"blastoise\",\"url\":\"https://pokeapi.co/api/v2/pokemon/9/\"},\"slot\":1},{\"pokemon\":{\"name\":\"psyduck\",\"url\":\"https://pokeapi.co/api/v2/pokemon/54/\"},\"slot\":1},{\"pokemon\":{\"name\":\"golduck\",\"url\":\"https://pokeapi.co/api/v2/pokemon/55/\"},\"slot\":1},{\"pokemon\":{\"name\":\"poliwag\",\"url\":\"https://pokeapi.co/api/v2/pokemon/60/\"},\"slot\":1},{\"pokemon\":{\"name\":\"poliwhirl\",\"url\":\"https://pokeapi.co/api/v2/pokemon/61/\"},\"slot\":1},{\"pokemon\":{\"name\":\"poliwrath\",\"url\":\"https://pokeapi.co/api/v2/pokemon/62/\"},\"slot\":1},{\"pokemon\":{\"name\":\"tentacool\",\"url\":\"https://pokeapi.co/api/v2/pokemon/72/\"},\"slot\":1},{\"pokemon\":{\"name\":\"tentacruel\",\"url\":\"https://pokeapi.co/api/v2/pokemon/73/\"},\"slot\":1},{\"pokemon\":{\"name\":\"slowpoke\",\"url\":\"https://pokeapi.co/api/v2/pokemon/79/\"},\"slot\":1},{\"pokemon\":{\"name\":\"slowbro\",\"url\":\"https://pokeapi.co/api/v2/pokemon/80/\"},\"slot\":1},{\"pokemon\":{\"name\":\"seel\",\"url\":\"https://pokeapi.co/api/v2/pokemon/86/\"},\"slot\":1},{\"pokemon\":{\"name\":\"dewgong\",\"url\":\"https://pokeapi.co/api/v2/pokemon/87/\"},\"slot\":1},{\"pokemon\":{\"name\":\"shellder\",\"url\":\"https://pokeapi.co/api/v2/pokemon/90/\"},\"slot\":1},{\"pokemon\":{\"name\":\"cloyster\",\"url\":\"https://pokeapi.co/api/v2/pokemon/91/\"},\"slot\":1},{\"pokemon\":{\"name\":\"krabby\",\"url\":\"https://pokeapi.co/api/v2/pokemon/98/\"},\"slot\":1},{\"pokemon\":{\"name\":\"kingler\",\"url\":\"https://pokeapi.co/api/v2/pokemon/99/\"},\"slot\":1},{\"pokemon\":{\"name\":\"horsea\",\"url\":\"https://pokeapi.co/api/v2/pokemon/116/\"},\"slot\":1},{\"pokemon\":{\"name\":\"seadra\",\"url\":\"https://pokeapi.co/api/v2/pokemon/117/\"},\"slot\":1},{\"pokemon\":{\"name\":\"goldeen\",\"url\":\"https://pokeapi.co/api/v2/pokemon/118/\"},\"slot\":1},{\"pokemon\":{\"name\":\"seaking\",\"url\":\"https://pokeapi.co/api/v2/pokemon/119/\"},\"slot\":1},{\"pokemon\":{\"name\":\"staryu\",\"url\":\"https://pokeapi.co/api/v2/pokemon/120/\"},\"slot\":1},{\"pokemon\":{\"name\":\"starmie\",\"url\":\"https://pokeapi.co/api/v2/pokemon/121/\"},\"slot\":1},{\"pokemon\":{\"name\":\"magikarp\",\"url\":\"https://pokeapi.co/api/v2/pokemon/129/\"},\"slot\":1},{\"pokemon\":{\"name\":\"gyarados\",\"url\":\"https://pokeapi.co/api/v2/pokemon/130/\"},\"slot\":1},{\"pokemon\":{\"name\":\"lapras\",\"url\":\"https://pokeapi.co/api/v2/pokemon/131/\"},\"slot\":1},{\"pokemon\":{\"name\":\"vaporeon\",\"url\":\"https://pokeapi.co/api/v2/pokemon/134/\"},\"slot\":1},{\"pokemon\":{\"name\":\"omanyte\",\"url\":\"https://pokeapi.co/api/v2/pokemon/138/\"},\"slot\":2},{\"pokemon\":{\"name\":\"omastar\",\"url\":\"https://pokeapi.co/api/v2/pokemon/139/\"},\"slot\":2},{\"pokemon\":{\"name\":\"kabuto\",\"url\":\"https://pokeapi.co/api/v2/pokemon/140/\"},\"slot\":2},{\"pokemon\":{\"name\":\"kabutops\",\"url\":\"https://pokeapi.co/api/v2/pokemon/141/\"},\"slot\":2},{\"pokemon\":{\"name\":\"totodile\",\"url\":\"https://pokeapi.co/api/v2/pokemon/158/\"},\"slot\":1},{\"pokemon\":{\"name\":\"croconaw\",\"url\":\"https://pokeapi.co/api/v2/pokemon/159/\"},\"slot\":1},{\"pokemon\":{\"name\":\"feraligatr\",\"url\":\"https://pokeapi.co/api/v2/pokemon/160/\"},\"slot\":1},{\"pokemon\":{\"name\":\"chinchou\",\"url\":\"https://pokeapi.co/api/v2/pokemon/170/\"},\"slot\":1},{\"pokemon\":{\"name\":\"lanturn\",\"url\":\"https://pokeapi.co/api/v2/pokemon/171/\"},\"slot\":1},{\"pokemon\":{\"name\":\"marill\",\"url\":\"https://pokeapi.co/api/v2/pokemon/183/\"},\"slot\":1},{\"pokemon\":{\"name\":\"azumarill\",\"url\":\"https://pokeapi.co/api/v2/pokemon/184/\"},\"slot\":1},{\"pokemon\":{\"name\":\"politoed\",\"url\":\"https://pokeapi.co/api/v2/pokemon/186/\"},\"slot\":1},{\"pokemon\":{\"name\":\"wooper\",\"url\":\"https://pokeapi.co/api/v2/pokemon/194/\"},\"slot\":1},{\"pokemon\":{\"name\":\"quagsire\",\"url\":\"https://pokeapi.co/api/v2/pokemon/195/\"},\"slot\":1},{\"pokemon\":{\"name\":\"slowking\",\"url\":\"https://pokeapi.co/api/v2/pokemon/199/\"},\"slot\":1},{\"pokemon\":{\"name\":\"qwilfish\",\"url\":\"https://pokeapi.co/api/v2/pokemon/211/\"},\"slot\":1},{\"pokemon\":{\"name\":\"corsola\",\"url\":\"https://pokeapi.co/api/v2/pokemon/222/\"},\"slot\":1},{\"pokemon\":{\"name\":\"remoraid\",\"url\":\"https://pokeapi.co/api/v2/pokemon/223/\"},\"slot\":1},{\"pokemon\":{\"name\":\"octillery\",\"url\":\"https://pokeapi.co/api/v2/pokemon/224/\"},\"slot\":1},{\"pokemon\":{\"name\":\"mantine\",\"url\":\"https://pokeapi.co/api/v2/pokemon/226/\"},\"slot\":1},{\"pokemon\":{\"name\":\"kingdra\",\"url\":\"https://pokeapi.co/api/v2/pokemon/230/\"},\"slot\":1},{\"pokemon\":{\"name\":\"suicune\",\"url\":\"https://pokeapi.co/api/v2/pokemon/245/\"},\"slot\":1},{\"pokemon\":{\"name\":\"mudkip\",\"url\":\"https://pokeapi.co/api/v2/pokemon/258/\"},\"slot\":1},{\"pokemon\":{\"name\":\"marshtomp\",\"url\":\"https://pokeapi.co/api/v2/pokemon/259/\"},\"slot\":1},{\"pokemon\":{\"name\":\"swampert\",\"url\":\"https://pokeapi.co/api/v2/pokemon/260/\"},\"slot\":1},{\"pokemon\":{\"name\":\"lotad\",\"url\":\"https://pokeapi.co/api/v2/pokemon/270/\"},\"slot\":1},{\"pokemon\":{\"name\":\"lombre\",\"url\":\"https://pokeapi.co/api/v2/pokemon/271/\"},\"slot\":1},{\"pokemon\":{\"name\":\"ludicolo\",\"url\":\"https://pokeapi.co/api/v2/pokemon/272/\"},\"slot\":1},{\"pokemon\":{\"name\":\"wingull\",\"url\":\"https://pokeapi.co/api/v2/pokemon/278/\"},\"slot\":1},{\"pokemon\":{\"name\":\"pelipper\",\"url\":\"https://pokeapi.co/api/v2/pokemon/279/\"},\"slot\":1},{\"pokemon\":{\"name\":\"surskit\",\"url\":\"https://pokeapi.co/api/v2/pokemon/283/\"},\"slot\":2},{\"pokemon\":{\"name\":\"carvanha\",\"url\":\"https://pokeapi.co/api/v2/pokemon/318/\"},\"slot\":1},{\"pokemon\":{\"name\":\"sharpedo\",\"url\":\"https://pokeapi.co/api/v2/pokemon/319/\"},\"slot\":1},{\"pokemon\":{\"name\":\"wailmer\",\"url\":\"https://pokeapi.co/api/v2/pokemon/320/\"},\"slot\":1},{\"pokemon\":{\"name\":\"wailord\",\"url\":\"https://pokeapi.co/api/v2/pokemon/321/\"},\"slot\":1},{\"pokemon\":{\"name\":\"barboach\",\"url\":\"https://pokeapi.co/api/v2/pokemon/339/\"},\"slot\":1},{\"pokemon\":{\"name\":\"whiscash\",\"url\":\"https://pokeapi.co/api/v2/pokemon/340/\"},\"slot\":1},{\"pokemon\":{\"name\":\"corphish\",\"url\":\"https://pokeapi.co/api/v2/pokemon/341/\"},\"slot\":1},{\"pokemon\":{\"name\":\"crawdaunt\",\"url\":\"https://pokeapi.co/api/v2/pokemon/342/\"},\"slot\":1},{\"pokemon\":{\"name\":\"feebas\",\"url\":\"https://pokeapi.co/api/v2/pokemon/349/\"},\"slot\":1},{\"pokemon\":{\"name\":\"milotic\",\"url\":\"https://pokeapi.co/api/v2/pokemon/350/\"},\"slot\":1},{\"pokemon\":{\"name\":\"spheal\",\"url\":\"https://pokeapi.co/api/v2/pokemon/363/\"},\"slot\":2},{\"pokemon\":{\"name\":\"sealeo\",\"url\":\"https://pokeapi.co/api/v2/pokemon/364/\"},\"slot\":2},{\"pokemon\":{\"name\":\"walrein\",\"url\":\"https://pokeapi.co/api/v2/pokemon/365/\"},\"slot\":2},{\"pokemon\":{\"name\":\"clamperl\",\"url\":\"https://pokeapi.co/api/v2/pokemon/366/\"},\"slot\":1},{\"pokemon\":{\"name\":\"huntail\",\"url\":\"https://pokeapi.co/api/v2/pokemon/367/\"},\"slot\":1},{\"pokemon\":{\"name\":\"gorebyss\",\"url\":\"https://pokeapi.co/api/v2/pokemon/368/\"},\"slot\":1},{\"pokemon\":{\"name\":\"relicanth\",\"url\":\"https://pokeapi.co/api/v2/pokemon/369/\"},\"slot\":1},{\"pokemon\":{\"name\":\"luvdisc\",\"url\":\"https://pokeapi.co/api/v2/pokemon/370/\"},\"slot\":1},{\"pokemon\":{\"name\":\"kyogre\",\"url\":\"https://pokeapi.co/api/v2/pokemon/382/\"},\"slot\":1},{\"pokemon\":{\"name\":\"piplup\",\"url\":\"https://pokeapi.co/api/v2/pokemon/393/\"},\"slot\":1},{\"pokemon\":{\"name\":\"prinplup\",\"url\":\"https://pokeapi.co/api/v2/pokemon/394/\"},\"slot\":1},{\"pokemon\":{\"name\":\"empoleon\",\"url\":\"https://pokeapi.co/api/v2/pokemon/395/\"},\"slot\":1},{\"pokemon\":{\"name\":\"bibarel\",\"url\":\"https://pokeapi.co/api/v2/pokemon/400/\"},\"slot\":2},{\"pokemon\":{\"name\":\"buizel\",\"url\":\"https://pokeapi.co/api/v2/pokemon/418/\"},\"slot\":1},{\"pokemon\":{\"name\":\"floatzel\",\"url\":\"https://pokeapi.co/api/v2/pokemon/419/\"},\"slot\":1},{\"pokemon\":{\"name\":\"shellos\",\"url\":\"https://pokeapi.co/api/v2/pokemon/422/\"},\"slot\":1},{\"pokemon\":{\"name\":\"gastrodon\",\"url\":\"https://pokeapi.co/api/v2/pokemon/423/\"},\"slot\":1},{\"pokemon\":{\"name\":\"finneon\",\"url\":\"https://pokeapi.co/api/v2/pokemon/456/\"},\"slot\":1},{\"pokemon\":{\"name\":\"lumineon\",\"url\":\"https://pokeapi.co/api/v2/pokemon/457/\"},\"slot\":1},{\"pokemon\":{\"name\":\"mantyke\",\"url\":\"https://pokeapi.co/api/v2/pokemon/458/\"},\"slot\":1},{\"pokemon\":{\"name\":\"palkia\",\"url\":\"https://pokeapi.co/api/v2/pokemon/484/\"},\"slot\":1},{\"pokemon\":{\"name\":\"phione\",\"url\":\"https://pokeapi.co/api/v2/pokemon/489/\"},\"slot\":1},{\"pokemon\":{\"name\":\"manaphy\",\"url\":\"https://pokeapi.co/api/v2/pokemon/490/\"},\"slot\":1},{\"pokemon\":{\"name\":\"oshawott\",\"url\":\"https://pokeapi.co/api/v2/pokemon/501/\"},\"slot\":1},{\"pokemon\":{\"name\":\"dewott\",\"url\":\"https://pokeapi.co/api/v2/pokemon/502/\"},\"slot\":1},{\"pokemon\":{\"name\":\"samurott\",\"url\":\"https://pokeapi.co/api/v2/pokemon/503/\"},\"slot\":1},{\"pokemon\":{\"name\":\"panpour\",\"url\":\"https://pokeapi.co/api/v2/pokemon/515/\"},\"slot\":1},{\"pokemon\":{\"name\":\"simipour\",\"url\":\"https://pokeapi.co/api/v2/pokemon/516/\"},\"slot\":1},{\"pokemon\":{\"name\":\"tympole\",\"url\":\"https://pokeapi.co/api/v2/pokemon/535/\"},\"slot\":1},{\"pokemon\":{\"name\":\"palpitoad\",\"url\":\"https://pokeapi.co/api/v2/pokemon/536/\"},\"slot\":1},{\"pokemon\":{\"name\":\"seismitoad\",\"url\":\"https://pokeapi.co/api/v2/pokemon/537/\"},\"slot\":1},{\"pokemon\":{\"name\":\"basculin-red-striped\",\"url\":\"https://pokeapi.co/api/v2/pokemon/550/\"},\"slot\":1},{\"pokemon\":{\"name\":\"tirtouga\",\"url\":\"https://pokeapi.co/api/v2/pokemon/564/\"},\"slot\":1},{\"pokemon\":{\"name\":\"carracosta\",\"url\":\"https://pokeapi.co/api/v2/pokemon/565/\"},\"slot\":1},{\"pokemon\":{\"name\":\"ducklett\",\"url\":\"https://pokeapi.co/api/v2/pokemon/580/\"},\"slot\":1},{\"pokemon\":{\"name\":\"swanna\",\"url\":\"https://pokeapi.co/api/v2/pokemon/581/\"},\"slot\":1},{\"pokemon\":{\"name\":\"frillish\",\"url\":\"https://pokeapi.co/api/v2/pokemon/592/\"},\"slot\":1},{\"pokemon\":{\"name\":\"jellicent\",\"url\":\"https://pokeapi.co/api/v2/pokemon/593/\"},\"slot\":1},{\"pokemon\":{\"name\":\"alomomola\",\"url\":\"https://pokeapi.co/api/v2/pokemon/594/\"},\"slot\":1},{\"pokemon\":{\"name\":\"keldeo-ordinary\",\"url\":\"https://pokeapi.co/api/v2/pokemon/647/\"},\"slot\":1},{\"pokemon\":{\"name\":\"froakie\",\"url\":\"https://pokeapi.co/api/v2/pokemon/656/\"},\"slot\":1},{\"pokemon\":{\"name\":\"frogadier\",\"url\":\"https://pokeapi.co/api/v2/pokemon/657/\"},\"slot\":1},{\"pokemon\":{\"name\":\"greninja\",\"url\":\"https://pokeapi.co/api/v2/pokemon/658/\"},\"slot\":1},{\"pokemon\":{\"name\":\"binacle\",\"url\":\"https://pokeapi.co/api/v2/pokemon/688/\"},\"slot\":2},{\"pokemon\":{\"name\":\"barbaracle\",\"url\":\"https://pokeapi.co/api/v2/pokemon/689/\"},\"slot\":2},{\"pokemon\":{\"name\":\"skrelp\",\"url\":\"https://pokeapi.co/api/v2/pokemon/690/\"},\"slot\":2},{\"pokemon\":{\"name\":\"clauncher\",\"url\":\"https://pokeapi.co/api/v2/pokemon/692/\"},\"slot\":1},{\"pokemon\":{\"name\":\"clawitzer\",\"url\":\"https://pokeapi.co/api/v2/pokemon/693/\"},\"slot\":1},{\"pokemon\":{\"name\":\"volcanion\",\"url\":\"https://pokeapi.co/api/v2/pokemon/721/\"},\"slot\":2},{\"pokemon\":{\"name\":\"popplio\",\"url\":\"https://pokeapi.co/api/v2/pokemon/728/\"},\"slot\":1},{\"pokemon\":{\"name\":\"brionne\",\"url\":\"https://pokeapi.co/api/v2/pokemon/729/\"},\"slot\":1},{\"pokemon\":{\"name\":\"primarina\",\"url\":\"https://pokeapi.co/api/v2/pokemon/730/\"},\"slot\":1},{\"pokemon\":{\"name\":\"wishiwashi-solo\",\"url\":\"https://pokeapi.co/api/v2/pokemon/746/\"},\"slot\":1},{\"pokemon\":{\"name\":\"mareanie\",\"url\":\"https://pokeapi.co/api/v2/pokemon/747/\"},\"slot\":2},{\"pokemon\":{\"name\":\"toxapex\",\"url\":\"https://pokeapi.co/api/v2/pokemon/748/\"},\"slot\":2},{\"pokemon\":{\"name\":\"dewpider\",\"url\":\"https://pokeapi.co/api/v2/pokemon/751/\"},\"slot\":1},{\"pokemon\":{\"name\":\"araquanid\",\"url\":\"https://pokeapi.co/api/v2/pokemon/752/\"},\"slot\":1},{\"pokemon\":{\"name\":\"wimpod\",\"url\":\"https://pokeapi.co/api/v2/pokemon/767/\"},\"slot\":2},{\"pokemon\":{\"name\":\"golisopod\",\"url\":\"https://pokeapi.co/api/v2/pokemon/768/\"},\"slot\":2},{\"pokemon\":{\"name\":\"pyukumuku\",\"url\":\"https://pokeapi.co/api/v2/pokemon/771/\"},\"slot\":1},{\"pokemon\":{\"name\":\"bruxish\",\"url\":\"https://pokeapi.co/api/v2/pokemon/779/\"},\"slot\":1},{\"pokemon\":{\"name\":\"tapu-fini\",\"url\":\"https://pokeapi.co/api/v2/pokemon/788/\"},\"slot\":1},{\"pokemon\":{\"name\":\"sobble\",\"url\":\"https://pokeapi.co/api/v2/pokemon/816/\"},\"slot\":1},{\"pokemon\":{\"name\":\"drizzile\",\"url\":\"https://pokeapi.co/api/v2/pokemon/817/\"},\"slot\":1},{\"pokemon\":{\"name\":\"inteleon\",\"url\":\"https://pokeapi.co/api/v2/pokemon/818/\"},\"slot\":1},{\"pokemon\":{\"name\":\"chewtle\",\"url\":\"https://pokeapi.co/api/v2/pokemon/833/\"},\"slot\":1},{\"pokemon\":{\"name\":\"drednaw\",\"url\":\"https://pokeapi.co/api/v2/pokemon/834/\"},\"slot\":1},{\"pokemon\":{\"name\":\"cramorant\",\"url\":\"https://pokeapi.co/api/v2/pokemon/845/\"},\"slot\":2},{\"pokemon\":{\"name\":\"arrokuda\",\"url\":\"https://pokeapi.co/api/v2/pokemon/846/\"},\"slot\":1},{\"pokemon\":{\"name\":\"barraskewda\",\"url\":\"https://pokeapi.co/api/v2/pokemon/847/\"},\"slot\":1},{\"pokemon\":{\"name\":\"dracovish\",\"url\":\"https://pokeapi.co/api/v2/pokemon/882/\"},\"slot\":1},{\"pokemon\":{\"name\":\"arctovish\",\"url\":\"https://pokeapi.co/api/v2/pokemon/883/\"},\"slot\":1},{\"pokemon\":{\"name\":\"rotom-wash\",\"url\":\"https://pokeapi.co/api/v2/pokemon/10009/\"},\"slot\":2},{\"pokemon\":{\"name\":\"castform-rainy\",\"url\":\"https://pokeapi.co/api/v2/pokemon/10014/\"},\"slot\":1},{\"pokemon\":{\"name\":\"basculin-blue-striped\",\"url\":\"https://pokeapi.co/api/v2/pokemon/10016/\"},\"slot\":1},{\"pokemon\":{\"name\":\"keldeo-resolute\",\"url\":\"https://pokeapi.co/api/v2/pokemon/10024/\"},\"slot\":1},{\"pokemon\":{\"name\":\"blastoise-mega\",\"url\":\"https://pokeapi.co/api/v2/pokemon/10036/\"},\"slot\":1},{\"pokemon\":{\"name\":\"gyarados-mega\",\"url\":\"https://pokeapi.co/api/v2/pokemon/10041/\"},\"slot\":1},{\"pokemon\":{\"name\":\"swampert-mega\",\"url\":\"https://pokeapi.co/api/v2/pokemon/10064/\"},\"slot\":1},{\"pokemon\":{\"name\":\"sharpedo-mega\",\"url\":\"https://pokeapi.co/api/v2/pokemon/10070/\"},\"slot\":1},{\"pokemon\":{\"name\":\"slowbro-mega\",\"url\":\"https://pokeapi.co/api/v2/pokemon/10071/\"},\"slot\":1},{\"pokemon\":{\"name\":\"kyogre-primal\",\"url\":\"https://pokeapi.co/api/v2/pokemon/10077/\"},\"slot\":1},{\"pokemon\":{\"name\":\"greninja-battle-bond\",\"url\":\"https://pokeapi.co/api/v2/pokemon/10116/\"},\"slot\":1},{\"pokemon\":{\"name\":\"greninja-ash\",\"url\":\"https://pokeapi.co/api/v2/pokemon/10117/\"},\"slot\":1},{\"pokemon\":{\"name\":\"wishiwashi-school\",\"url\":\"https://pokeapi.co/api/v2/pokemon/10127/\"},\"slot\":1},{\"pokemon\":{\"name\":\"araquanid-totem\",\"url\":\"https://pokeapi.co/api/v2/pokemon/10153/\"},\"slot\":1},{\"pokemon\":{\"name\":\"urshifu-rapid-strike\",\"url\":\"https://pokeapi.co/api/v2/pokemon/10183/\"},\"slot\":2},{\"pokemon\":{\"name\":\"blastoise-gmax\",\"url\":\"https://pokeapi.co/api/v2/pokemon/10188/\"},\"slot\":1},{\"pokemon\":{\"name\":\"kingler-gmax\",\"url\":\"https://pokeapi.co/api/v2/pokemon/10194/\"},\"slot\":1},{\"pokemon\":{\"name\":\"lapras-gmax\",\"url\":\"https://pokeapi.co/api/v2/pokemon/10195/\"},\"slot\":1},{\"pokemon\":{\"name\":\"inteleon-gmax\",\"url\":\"https://pokeapi.co/api/v2/pokemon/10202/\"},\"slot\":1},{\"pokemon\":{\"name\":\"drednaw-gmax\",\"url\":\"https://pokeapi.co/api/v2/pokemon/10205/\"},\"slot\":1},{\"pokemon\":{\"name\":\"urshifu-rapid-strike-gmax\",\"url\":\"https://pokeapi.co/api/v2/pokemon/10219/\"},\"slot\":2}]}",
+        "onvalueType": "json",
+        "onicon": "close",
+        "oncolor": "red",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "search",
+        "offcolor": "blue",
+        "animate": false,
+        "x": 460,
+        "y": 100,
+        "wires": [
+            [
+                "602c02e6c738b7bd",
+                "839a661a6bbf9b73"
+            ]
+        ]
+    },
+    {
+        "id": "602c02e6c738b7bd",
+        "type": "ui_text",
+        "z": "97e7b75be390e3e7",
+        "group": "6c21f2c9328ad961",
+        "order": 3,
+        "width": "6",
+        "height": "16",
+        "name": "TipoAgua",
+        "label": "Listado",
+        "format": "{{msg.payload.pokemon.length}}<br><br>{{msg.payload.pokemon[0].pokemon.name}}<br>{{msg.payload.pokemon[1].pokemon.name}}<br>{{msg.payload.pokemon[2].pokemon.name}}<br>{{msg.payload.pokemon[3].pokemon.name}}<br>{{msg.payload.pokemon[4].pokemon.name}}<br>{{msg.payload.pokemon[5].pokemon.name}}<br>{{msg.payload.pokemon[6].pokemon.name}}<br>{{msg.payload.pokemon[7].pokemon.name}}<br>{{msg.payload.pokemon[8].pokemon.name}}<br>{{msg.payload.pokemon[9].pokemon.name}}<br>{{msg.payload.pokemon[10].pokemon.name}}<br>{{msg.payload.pokemon[11].pokemon.name}}<br>{{msg.payload.pokemon[12].pokemon.name}}<br>{{msg.payload.pokemon[13].pokemon.name}}<br>{{msg.payload.pokemon[14].pokemon.name}}<br>{{msg.payload.pokemon[15].pokemon.name}}<br>{{msg.payload.pokemon[16].pokemon.name}}<br>{{msg.payload.pokemon[17].pokemon.name}}<br>{{msg.payload.pokemon[18].pokemon.name}}<br>{{msg.payload.pokemon[19].pokemon.name}}<br>{{msg.payload.pokemon[20].pokemon.name}}<br> {{msg.payload.pokemon[21].pokemon.name}}<br> {{msg.payload.pokemon[22].pokemon.name}}<br> {{msg.payload.pokemon[23].pokemon.name}}<br> {{msg.payload.pokemon[24].pokemon.name}}<br> {{msg.payload.pokemon[25].pokemon.name}}<br> {{msg.payload.pokemon[26].pokemon.name}}<br> {{msg.payload.pokemon[27].pokemon.name}}<br> {{msg.payload.pokemon[28].pokemon.name}}<br> {{msg.payload.pokemon[29].pokemon.name}}<br> {{msg.payload.pokemon[30].pokemon.name}}<br> {{msg.payload.pokemon[31].pokemon.name}}<br> {{msg.payload.pokemon[32].pokemon.name}}<br> {{msg.payload.pokemon[33].pokemon.name}}<br> {{msg.payload.pokemon[34].pokemon.name}}<br> {{msg.payload.pokemon[35].pokemon.name}}<br> {{msg.payload.pokemon[36].pokemon.name}}<br> {{msg.payload.pokemon[37].pokemon.name}}<br> {{msg.payload.pokemon[38].pokemon.name}}<br> {{msg.payload.pokemon[39].pokemon.name}}<br> {{msg.payload.pokemon[40].pokemon.name}}<br> {{msg.payload.pokemon[41].pokemon.name}}<br> {{msg.payload.pokemon[42].pokemon.name}}<br> {{msg.payload.pokemon[43].pokemon.name}}<br> {{msg.payload.pokemon[44].pokemon.name}}<br> {{msg.payload.pokemon[45].pokemon.name}}<br> {{msg.payload.pokemon[46].pokemon.name}}<br> {{msg.payload.pokemon[47].pokemon.name}}<br> {{msg.payload.pokemon[48].pokemon.name}}<br> {{msg.payload.pokemon[49].pokemon.name}}<br> {{msg.payload.pokemon[50].pokemon.name}}<br> {{msg.payload.pokemon[51].pokemon.name}}<br> {{msg.payload.pokemon[52].pokemon.name}}<br> {{msg.payload.pokemon[53].pokemon.name}}<br> {{msg.payload.pokemon[54].pokemon.name}}<br> {{msg.payload.pokemon[55].pokemon.name}}<br> {{msg.payload.pokemon[56].pokemon.name}}<br> {{msg.payload.pokemon[57].pokemon.name}}<br> {{msg.payload.pokemon[58].pokemon.name}}<br> {{msg.payload.pokemon[58].pokemon.name}}<br> {{msg.payload.pokemon[60].pokemon.name}}<br> {{msg.payload.pokemon[61].pokemon.name}}<br> {{msg.payload.pokemon[62].pokemon.name}}<br> {{msg.payload.pokemon[63].pokemon.name}}<br> {{msg.payload.pokemon[64].pokemon.name}}<br> {{msg.payload.pokemon[65].pokemon.name}}<br> {{msg.payload.pokemon[66].pokemon.name}}<br> {{msg.payload.pokemon[67].pokemon.name}}<br> {{msg.payload.pokemon[68].pokemon.name}}<br> {{msg.payload.pokemon[69].pokemon.name}}<br> {{msg.payload.pokemon[70].pokemon.name}}<br> {{msg.payload.pokemon[71].pokemon.name}}<br> {{msg.payload.pokemon[72].pokemon.name}}<br> {{msg.payload.pokemon[73].pokemon.name}}<br> {{msg.payload.pokemon[74].pokemon.name}}<br> {{msg.payload.pokemon[75].pokemon.name}}<br> {{msg.payload.pokemon[76].pokemon.name}}<br> {{msg.payload.pokemon[77].pokemon.name}}<br> {{msg.payload.pokemon[78].pokemon.name}}<br> {{msg.payload.pokemon[79].pokemon.name}}<br> {{msg.payload.pokemon[80].pokemon.name}}<br> {{msg.payload.pokemon[81].pokemon.name}}<br> {{msg.payload.pokemon[82].pokemon.name}}<br> {{msg.payload.pokemon[83].pokemon.name}}<br> {{msg.payload.pokemon[84].pokemon.name}}<br> {{msg.payload.pokemon[85].pokemon.name}}<br> {{msg.payload.pokemon[86].pokemon.name}}<br> {{msg.payload.pokemon[87].pokemon.name}}<br> {{msg.payload.pokemon[88].pokemon.name}}<br> {{msg.payload.pokemon[89].pokemon.name}}<br> {{msg.payload.pokemon[90].pokemon.name}}<br> {{msg.payload.pokemon[91].pokemon.name}}<br> {{msg.payload.pokemon[92].pokemon.name}}<br> {{msg.payload.pokemon[93].pokemon.name}}<br> {{msg.payload.pokemon[94].pokemon.name}}<br>{{msg.payload.pokemon[95].pokemon.name}}<br> {{msg.payload.pokemon[96].pokemon.name}}<br> {{msg.payload.pokemon[97].pokemon.name}}<br> {{msg.payload.pokemon[98].pokemon.name}}<br> {{msg.payload.pokemon[99].pokemon.name}}<br> {{msg.payload.pokemon[100].pokemon.name}}<br> {{msg.payload.pokemon[101].pokemon.name}}<br> {{msg.payload.pokemon[102].pokemon.name}}<br> {{msg.payload.pokemon[103].pokemon.name}}<br> {{msg.payload.pokemon[104].pokemon.name}}<br> {{msg.payload.pokemon[105].pokemon.name}}<br> {{msg.payload.pokemon[106].pokemon.name}}<br> {{msg.payload.pokemon[107].pokemon.name}}<br> {{msg.payload.pokemon[108].pokemon.name}}<br> {{msg.payload.pokemon[109].pokemon.name}}<br> {{msg.payload.pokemon[110].pokemon.name}}<br> {{msg.payload.pokemon[111].pokemon.name}}<br> {{msg.payload.pokemon[112].pokemon.name}}<br> {{msg.payload.pokemon[113].pokemon.name}}<br> {{msg.payload.pokemon[114].pokemon.name}}<br> {{msg.payload.pokemon[115].pokemon.name}}<br> {{msg.payload.pokemon[116].pokemon.name}}<br> {{msg.payload.pokemon[117].pokemon.name}}<br> {{msg.payload.pokemon[118].pokemon.name}}<br> {{msg.payload.pokemon[119].pokemon.name}}<br> {{msg.payload.pokemon[120].pokemon.name}}<br> {{msg.payload.pokemon[121].pokemon.name}}<br> {{msg.payload.pokemon[122].pokemon.name}}<br> {{msg.payload.pokemon[123].pokemon.name}}<br> {{msg.payload.pokemon[124].pokemon.name}}<br> {{msg.payload.pokemon[125].pokemon.name}}<br> {{msg.payload.pokemon[126].pokemon.name}}<br> {{msg.payload.pokemon[127].pokemon.name}}<br> {{msg.payload.pokemon[128].pokemon.name}}<br> {{msg.payload.pokemon[129].pokemon.name}}<br> {{msg.payload.pokemon[130].pokemon.name}}<br> {{msg.payload.pokemon[131].pokemon.name}}<br> {{msg.payload.pokemon[132].pokemon.name}}<br> {{msg.payload.pokemon[133].pokemon.name}}<br> {{msg.payload.pokemon[134].pokemon.name}}<br> {{msg.payload.pokemon[135].pokemon.name}}<br> {{msg.payload.pokemon[136].pokemon.name}}<br> {{msg.payload.pokemon[137].pokemon.name}}<br> {{msg.payload.pokemon[138].pokemon.name}}<br> {{msg.payload.pokemon[139].pokemon.name}}<br> {{msg.payload.pokemon[140].pokemon.name}}<br> {{msg.payload.pokemon[141].pokemon.name}}<br> {{msg.payload.pokemon[142].pokemon.name}}<br> {{msg.payload.pokemon[143].pokemon.name}}<br> {{msg.payload.pokemon[144].pokemon.name}}<br> {{msg.payload.pokemon[145].pokemon.name}}<br> {{msg.payload.pokemon[146].pokemon.name}}<br> {{msg.payload.pokemon[147].pokemon.name}}<br> {{msg.payload.pokemon[148].pokemon.name}}<br> {{msg.payload.pokemon[149].pokemon.name}}<br> {{msg.payload.pokemon[150].pokemon.name}}<br> {{msg.payload.pokemon[151].pokemon.name}}<br> {{msg.payload.pokemon[152].pokemon.name}}<br> {{msg.payload.pokemon[153].pokemon.name}}<br> {{msg.payload.pokemon[154].pokemon.name}}<br> {{msg.payload.pokemon[155].pokemon.name}}<br> {{msg.payload.pokemon[156].pokemon.name}}<br> {{msg.payload.pokemon[157].pokemon.name}}<br> {{msg.payload.pokemon[158].pokemon.name}}<br> {{msg.payload.pokemon[159].pokemon.name}}<br> {{msg.payload.pokemon[160].pokemon.name}}<br> {{msg.payload.pokemon[161].pokemon.name}}<br> {{msg.payload.pokemon[162].pokemon.name}}<br> {{msg.payload.pokemon[163].pokemon.name}}<br> {{msg.payload.pokemon[164].pokemon.name}}<br> {{msg.payload.pokemon[165].pokemon.name}}<br> {{msg.payload.pokemon[166].pokemon.name}}",
+        "layout": "col-center",
+        "x": 600,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "d1f010c559aa6040",
+        "type": "comment",
+        "z": "97e7b75be390e3e7",
+        "name": "",
+        "info": "<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>{{msg.payload.pokemon[0].pokemon.name}}<br>{{msg.payload.pokemon[1].pokemon.name}}<br>{{msg.payload.pokemon[2].pokemon.name}}<br>{{msg.payload.pokemon[3].pokemon.name}}<br>{{msg.payload.pokemon[4].pokemon.name}}<br>{{msg.payload.pokemon[5].pokemon.name}}<br>{{msg.payload.pokemon[6].pokemon.name}}<br>{{msg.payload.pokemon[7].pokemon.name}}<br>{{msg.payload.pokemon[8].pokemon.name}}<br>{{msg.payload.pokemon[9].pokemon.name}}<br>{{msg.payload.pokemon[10].pokemon.name}}<br>{{msg.payload.pokemon[11].pokemon.name}}<br>{{msg.payload.pokemon[12].pokemon.name}}<br>{{msg.payload.pokemon[13].pokemon.name}}<br>{{msg.payload.pokemon[14].pokemon.name}}<br>{{msg.payload.pokemon[15].pokemon.name}}<br>{{msg.payload.pokemon[16].pokemon.name}}<br>{{msg.payload.pokemon[17].pokemon.name}}<br>{{msg.payload.pokemon[18].pokemon.name}}<br>{{msg.payload.pokemon[19].pokemon.name}}<br>{{msg.payload.pokemon[20].pokemon.name}}<br> {{msg.payload.pokemon[21].pokemon.name}}<br> {{msg.payload.pokemon[22].pokemon.name}}<br> {{msg.payload.pokemon[23].pokemon.name}}<br> {{msg.payload.pokemon[24].pokemon.name}}<br> {{msg.payload.pokemon[25].pokemon.name}}<br> {{msg.payload.pokemon[26].pokemon.name}}<br> {{msg.payload.pokemon[27].pokemon.name}}<br> {{msg.payload.pokemon[28].pokemon.name}}<br> {{msg.payload.pokemon[29].pokemon.name}}<br> {{msg.payload.pokemon[30].pokemon.name}}<br> {{msg.payload.pokemon[31].pokemon.name}}<br> {{msg.payload.pokemon[32].pokemon.name}}<br> {{msg.payload.pokemon[33].pokemon.name}}<br> {{msg.payload.pokemon[34].pokemon.name}}<br> {{msg.payload.pokemon[35].pokemon.name}}<br> {{msg.payload.pokemon[36].pokemon.name}}<br> {{msg.payload.pokemon[37].pokemon.name}}<br> {{msg.payload.pokemon[38].pokemon.name}}<br> {{msg.payload.pokemon[39].pokemon.name}}<br> {{msg.payload.pokemon[40].pokemon.name}}<br> {{msg.payload.pokemon[41].pokemon.name}}<br> {{msg.payload.pokemon[42].pokemon.name}}<br> {{msg.payload.pokemon[43].pokemon.name}}<br> {{msg.payload.pokemon[44].pokemon.name}}<br> {{msg.payload.pokemon[45].pokemon.name}}<br> {{msg.payload.pokemon[46].pokemon.name}}<br> {{msg.payload.pokemon[47].pokemon.name}}<br> {{msg.payload.pokemon[48].pokemon.name}}<br> {{msg.payload.pokemon[49].pokemon.name}}<br> {{msg.payload.pokemon[50].pokemon.name}}<br> {{msg.payload.pokemon[51].pokemon.name}}<br> {{msg.payload.pokemon[52].pokemon.name}}<br> {{msg.payload.pokemon[53].pokemon.name}}<br> {{msg.payload.pokemon[54].pokemon.name}}<br> {{msg.payload.pokemon[55].pokemon.name}}<br> {{msg.payload.pokemon[56].pokemon.name}}<br> {{msg.payload.pokemon[57].pokemon.name}}<br> {{msg.payload.pokemon[58].pokemon.name}}<br> {{msg.payload.pokemon[58].pokemon.name}}<br> {{msg.payload.pokemon[60].pokemon.name}}<br> {{msg.payload.pokemon[61].pokemon.name}}<br> {{msg.payload.pokemon[62].pokemon.name}}<br> {{msg.payload.pokemon[63].pokemon.name}}<br> {{msg.payload.pokemon[64].pokemon.name}}<br> {{msg.payload.pokemon[65].pokemon.name}}<br> {{msg.payload.pokemon[66].pokemon.name}}<br> {{msg.payload.pokemon[67].pokemon.name}}<br> {{msg.payload.pokemon[68].pokemon.name}}<br> {{msg.payload.pokemon[69].pokemon.name}}<br> {{msg.payload.pokemon[70].pokemon.name}}<br> {{msg.payload.pokemon[71].pokemon.name}}<br> {{msg.payload.pokemon[72].pokemon.name}}<br> {{msg.payload.pokemon[73].pokemon.name}}<br> {{msg.payload.pokemon[74].pokemon.name}}<br> {{msg.payload.pokemon[75].pokemon.name}}<br> {{msg.payload.pokemon[76].pokemon.name}}<br> {{msg.payload.pokemon[77].pokemon.name}}<br> {{msg.payload.pokemon[78].pokemon.name}}<br> {{msg.payload.pokemon[79].pokemon.name}}<br> {{msg.payload.pokemon[80].pokemon.name}}<br> {{msg.payload.pokemon[81].pokemon.name}}<br> {{msg.payload.pokemon[82].pokemon.name}}<br> {{msg.payload.pokemon[83].pokemon.name}}<br> {{msg.payload.pokemon[84].pokemon.name}}<br> {{msg.payload.pokemon[85].pokemon.name}}<br> {{msg.payload.pokemon[86].pokemon.name}}<br> {{msg.payload.pokemon[87].pokemon.name}}<br> {{msg.payload.pokemon[88].pokemon.name}}<br> {{msg.payload.pokemon[89].pokemon.name}}<br> {{msg.payload.pokemon[90].pokemon.name}}<br> {{msg.payload.pokemon[91].pokemon.name}}<br> {{msg.payload.pokemon[92].pokemon.name}}<br> {{msg.payload.pokemon[93].pokemon.name}}<br> {{msg.payload.pokemon[94].pokemon.name}}<br>{{msg.payload.pokemon[95].pokemon.name}}<br> {{msg.payload.pokemon[96].pokemon.name}}<br> {{msg.payload.pokemon[97].pokemon.name}}<br> {{msg.payload.pokemon[98].pokemon.name}}<br> {{msg.payload.pokemon[99].pokemon.name}}<br> {{msg.payload.pokemon[100].pokemon.name}}<br> {{msg.payload.pokemon[101].pokemon.name}}<br> {{msg.payload.pokemon[102].pokemon.name}}<br> {{msg.payload.pokemon[103].pokemon.name}}<br> {{msg.payload.pokemon[104].pokemon.name}}<br> {{msg.payload.pokemon[105].pokemon.name}}<br> {{msg.payload.pokemon[106].pokemon.name}}<br> {{msg.payload.pokemon[107].pokemon.name}}<br> {{msg.payload.pokemon[108].pokemon.name}}<br> {{msg.payload.pokemon[109].pokemon.name}}<br> {{msg.payload.pokemon[110].pokemon.name}}<br> {{msg.payload.pokemon[111].pokemon.name}}<br> {{msg.payload.pokemon[112].pokemon.name}}<br> {{msg.payload.pokemon[113].pokemon.name}}<br> {{msg.payload.pokemon[114].pokemon.name}}<br> {{msg.payload.pokemon[115].pokemon.name}}<br> {{msg.payload.pokemon[116].pokemon.name}}<br> {{msg.payload.pokemon[117].pokemon.name}}<br> {{msg.payload.pokemon[118].pokemon.name}}<br> {{msg.payload.pokemon[119].pokemon.name}}<br> {{msg.payload.pokemon[120].pokemon.name}}<br> {{msg.payload.pokemon[121].pokemon.name}}<br> {{msg.payload.pokemon[122].pokemon.name}}<br> {{msg.payload.pokemon[123].pokemon.name}}<br> {{msg.payload.pokemon[124].pokemon.name}}<br> {{msg.payload.pokemon[125].pokemon.name}}<br> {{msg.payload.pokemon[126].pokemon.name}}<br> {{msg.payload.pokemon[127].pokemon.name}}<br> {{msg.payload.pokemon[128].pokemon.name}}<br> {{msg.payload.pokemon[129].pokemon.name}}<br> {{msg.payload.pokemon[130].pokemon.name}}<br> {{msg.payload.pokemon[131].pokemon.name}}<br> {{msg.payload.pokemon[132].pokemon.name}}<br> {{msg.payload.pokemon[133].pokemon.name}}<br> {{msg.payload.pokemon[134].pokemon.name}}<br> {{msg.payload.pokemon[135].pokemon.name}}<br> {{msg.payload.pokemon[136].pokemon.name}}<br> {{msg.payload.pokemon[137].pokemon.name}}<br> {{msg.payload.pokemon[138].pokemon.name}}<br> {{msg.payload.pokemon[139].pokemon.name}}<br> {{msg.payload.pokemon[140].pokemon.name}}<br> {{msg.payload.pokemon[141].pokemon.name}}<br> {{msg.payload.pokemon[142].pokemon.name}}<br> {{msg.payload.pokemon[143].pokemon.name}}<br> {{msg.payload.pokemon[144].pokemon.name}}<br> {{msg.payload.pokemon[145].pokemon.name}}<br> {{msg.payload.pokemon[146].pokemon.name}}<br> {{msg.payload.pokemon[147].pokemon.name}}<br> {{msg.payload.pokemon[148].pokemon.name}}<br> {{msg.payload.pokemon[149].pokemon.name}}<br> {{msg.payload.pokemon[150].pokemon.name}}<br> {{msg.payload.pokemon[151].pokemon.name}}<br> {{msg.payload.pokemon[152].pokemon.name}}<br> {{msg.payload.pokemon[153].pokemon.name}}<br> {{msg.payload.pokemon[154].pokemon.name}}<br> {{msg.payload.pokemon[155].pokemon.name}}<br> {{msg.payload.pokemon[156].pokemon.name}}<br> {{msg.payload.pokemon[157].pokemon.name}}<br> {{msg.payload.pokemon[158].pokemon.name}}<br> {{msg.payload.pokemon[159].pokemon.name}}<br> {{msg.payload.pokemon[160].pokemon.name}}<br> {{msg.payload.pokemon[161].pokemon.name}}<br> {{msg.payload.pokemon[162].pokemon.name}}<br> {{msg.payload.pokemon[163].pokemon.name}}<br> {{msg.payload.pokemon[164].pokemon.name}}<br> {{msg.payload.pokemon[165].pokemon.name}}<br> {{msg.payload.pokemon[166].pokemon.name}}",
+        "x": 100,
+        "y": 780,
+        "wires": []
+    },
+    {
+        "id": "8013837757ba6379",
+        "type": "http request",
+        "z": "97e7b75be390e3e7",
+        "name": "G",
+        "method": "GET",
+        "ret": "txt",
+        "paytoqs": "body",
+        "url": "https://pokeapi.co/api/v2/type/12",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "x": 290,
+        "y": 180,
+        "wires": [
+            [
+                "d1a78647151f21e1"
+            ]
+        ]
+    },
+    {
+        "id": "d1a78647151f21e1",
+        "type": "ui_switch",
+        "z": "97e7b75be390e3e7",
+        "name": "Mostrar",
+        "label": "Ocultar / Mostrar",
+        "tooltip": "",
+        "group": "161c51ef9e739893",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "{\"pokemon\":[{\"pokemon\":{\"name\":\"bulbasaur\",\"url\":\"https://pokeapi.co/api/v2/pokemon/1/\"},\"slot\":1},{\"pokemon\":{\"name\":\"ivysaur\",\"url\":\"https://pokeapi.co/api/v2/pokemon/2/\"},\"slot\":1},{\"pokemon\":{\"name\":\"venusaur\",\"url\":\"https://pokeapi.co/api/v2/pokemon/3/\"},\"slot\":1},{\"pokemon\":{\"name\":\"oddish\",\"url\":\"https://pokeapi.co/api/v2/pokemon/43/\"},\"slot\":1},{\"pokemon\":{\"name\":\"gloom\",\"url\":\"https://pokeapi.co/api/v2/pokemon/44/\"},\"slot\":1},{\"pokemon\":{\"name\":\"vileplume\",\"url\":\"https://pokeapi.co/api/v2/pokemon/45/\"},\"slot\":1},{\"pokemon\":{\"name\":\"paras\",\"url\":\"https://pokeapi.co/api/v2/pokemon/46/\"},\"slot\":2},{\"pokemon\":{\"name\":\"parasect\",\"url\":\"https://pokeapi.co/api/v2/pokemon/47/\"},\"slot\":2},{\"pokemon\":{\"name\":\"bellsprout\",\"url\":\"https://pokeapi.co/api/v2/pokemon/69/\"},\"slot\":1},{\"pokemon\":{\"name\":\"weepinbell\",\"url\":\"https://pokeapi.co/api/v2/pokemon/70/\"},\"slot\":1},{\"pokemon\":{\"name\":\"victreebel\",\"url\":\"https://pokeapi.co/api/v2/pokemon/71/\"},\"slot\":1},{\"pokemon\":{\"name\":\"exeggcute\",\"url\":\"https://pokeapi.co/api/v2/pokemon/102/\"},\"slot\":1},{\"pokemon\":{\"name\":\"exeggutor\",\"url\":\"https://pokeapi.co/api/v2/pokemon/103/\"},\"slot\":1},{\"pokemon\":{\"name\":\"tangela\",\"url\":\"https://pokeapi.co/api/v2/pokemon/114/\"},\"slot\":1},{\"pokemon\":{\"name\":\"chikorita\",\"url\":\"https://pokeapi.co/api/v2/pokemon/152/\"},\"slot\":1},{\"pokemon\":{\"name\":\"bayleef\",\"url\":\"https://pokeapi.co/api/v2/pokemon/153/\"},\"slot\":1},{\"pokemon\":{\"name\":\"meganium\",\"url\":\"https://pokeapi.co/api/v2/pokemon/154/\"},\"slot\":1},{\"pokemon\":{\"name\":\"bellossom\",\"url\":\"https://pokeapi.co/api/v2/pokemon/182/\"},\"slot\":1},{\"pokemon\":{\"name\":\"hoppip\",\"url\":\"https://pokeapi.co/api/v2/pokemon/187/\"},\"slot\":1},{\"pokemon\":{\"name\":\"skiploom\",\"url\":\"https://pokeapi.co/api/v2/pokemon/188/\"},\"slot\":1},{\"pokemon\":{\"name\":\"jumpluff\",\"url\":\"https://pokeapi.co/api/v2/pokemon/189/\"},\"slot\":1},{\"pokemon\":{\"name\":\"sunkern\",\"url\":\"https://pokeapi.co/api/v2/pokemon/191/\"},\"slot\":1},{\"pokemon\":{\"name\":\"sunflora\",\"url\":\"https://pokeapi.co/api/v2/pokemon/192/\"},\"slot\":1},{\"pokemon\":{\"name\":\"celebi\",\"url\":\"https://pokeapi.co/api/v2/pokemon/251/\"},\"slot\":2},{\"pokemon\":{\"name\":\"treecko\",\"url\":\"https://pokeapi.co/api/v2/pokemon/252/\"},\"slot\":1},{\"pokemon\":{\"name\":\"grovyle\",\"url\":\"https://pokeapi.co/api/v2/pokemon/253/\"},\"slot\":1},{\"pokemon\":{\"name\":\"sceptile\",\"url\":\"https://pokeapi.co/api/v2/pokemon/254/\"},\"slot\":1},{\"pokemon\":{\"name\":\"lotad\",\"url\":\"https://pokeapi.co/api/v2/pokemon/270/\"},\"slot\":2},{\"pokemon\":{\"name\":\"lombre\",\"url\":\"https://pokeapi.co/api/v2/pokemon/271/\"},\"slot\":2},{\"pokemon\":{\"name\":\"ludicolo\",\"url\":\"https://pokeapi.co/api/v2/pokemon/272/\"},\"slot\":2},{\"pokemon\":{\"name\":\"seedot\",\"url\":\"https://pokeapi.co/api/v2/pokemon/273/\"},\"slot\":1},{\"pokemon\":{\"name\":\"nuzleaf\",\"url\":\"https://pokeapi.co/api/v2/pokemon/274/\"},\"slot\":1},{\"pokemon\":{\"name\":\"shiftry\",\"url\":\"https://pokeapi.co/api/v2/pokemon/275/\"},\"slot\":1},{\"pokemon\":{\"name\":\"shroomish\",\"url\":\"https://pokeapi.co/api/v2/pokemon/285/\"},\"slot\":1},{\"pokemon\":{\"name\":\"breloom\",\"url\":\"https://pokeapi.co/api/v2/pokemon/286/\"},\"slot\":1},{\"pokemon\":{\"name\":\"roselia\",\"url\":\"https://pokeapi.co/api/v2/pokemon/315/\"},\"slot\":1},{\"pokemon\":{\"name\":\"cacnea\",\"url\":\"https://pokeapi.co/api/v2/pokemon/331/\"},\"slot\":1},{\"pokemon\":{\"name\":\"cacturne\",\"url\":\"https://pokeapi.co/api/v2/pokemon/332/\"},\"slot\":1},{\"pokemon\":{\"name\":\"lileep\",\"url\":\"https://pokeapi.co/api/v2/pokemon/345/\"},\"slot\":2},{\"pokemon\":{\"name\":\"cradily\",\"url\":\"https://pokeapi.co/api/v2/pokemon/346/\"},\"slot\":2},{\"pokemon\":{\"name\":\"tropius\",\"url\":\"https://pokeapi.co/api/v2/pokemon/357/\"},\"slot\":1},{\"pokemon\":{\"name\":\"turtwig\",\"url\":\"https://pokeapi.co/api/v2/pokemon/387/\"},\"slot\":1},{\"pokemon\":{\"name\":\"grotle\",\"url\":\"https://pokeapi.co/api/v2/pokemon/388/\"},\"slot\":1},{\"pokemon\":{\"name\":\"torterra\",\"url\":\"https://pokeapi.co/api/v2/pokemon/389/\"},\"slot\":1},{\"pokemon\":{\"name\":\"budew\",\"url\":\"https://pokeapi.co/api/v2/pokemon/406/\"},\"slot\":1},{\"pokemon\":{\"name\":\"roserade\",\"url\":\"https://pokeapi.co/api/v2/pokemon/407/\"},\"slot\":1},{\"pokemon\":{\"name\":\"wormadam-plant\",\"url\":\"https://pokeapi.co/api/v2/pokemon/413/\"},\"slot\":2},{\"pokemon\":{\"name\":\"cherubi\",\"url\":\"https://pokeapi.co/api/v2/pokemon/420/\"},\"slot\":1},{\"pokemon\":{\"name\":\"cherrim\",\"url\":\"https://pokeapi.co/api/v2/pokemon/421/\"},\"slot\":1},{\"pokemon\":{\"name\":\"carnivine\",\"url\":\"https://pokeapi.co/api/v2/pokemon/455/\"},\"slot\":1},{\"pokemon\":{\"name\":\"snover\",\"url\":\"https://pokeapi.co/api/v2/pokemon/459/\"},\"slot\":1},{\"pokemon\":{\"name\":\"abomasnow\",\"url\":\"https://pokeapi.co/api/v2/pokemon/460/\"},\"slot\":1},{\"pokemon\":{\"name\":\"tangrowth\",\"url\":\"https://pokeapi.co/api/v2/pokemon/465/\"},\"slot\":1},{\"pokemon\":{\"name\":\"leafeon\",\"url\":\"https://pokeapi.co/api/v2/pokemon/470/\"},\"slot\":1},{\"pokemon\":{\"name\":\"shaymin-land\",\"url\":\"https://pokeapi.co/api/v2/pokemon/492/\"},\"slot\":1},{\"pokemon\":{\"name\":\"snivy\",\"url\":\"https://pokeapi.co/api/v2/pokemon/495/\"},\"slot\":1},{\"pokemon\":{\"name\":\"servine\",\"url\":\"https://pokeapi.co/api/v2/pokemon/496/\"},\"slot\":1},{\"pokemon\":{\"name\":\"serperior\",\"url\":\"https://pokeapi.co/api/v2/pokemon/497/\"},\"slot\":1},{\"pokemon\":{\"name\":\"pansage\",\"url\":\"https://pokeapi.co/api/v2/pokemon/511/\"},\"slot\":1},{\"pokemon\":{\"name\":\"simisage\",\"url\":\"https://pokeapi.co/api/v2/pokemon/512/\"},\"slot\":1},{\"pokemon\":{\"name\":\"sewaddle\",\"url\":\"https://pokeapi.co/api/v2/pokemon/540/\"},\"slot\":2},{\"pokemon\":{\"name\":\"swadloon\",\"url\":\"https://pokeapi.co/api/v2/pokemon/541/\"},\"slot\":2},{\"pokemon\":{\"name\":\"leavanny\",\"url\":\"https://pokeapi.co/api/v2/pokemon/542/\"},\"slot\":2},{\"pokemon\":{\"name\":\"cottonee\",\"url\":\"https://pokeapi.co/api/v2/pokemon/546/\"},\"slot\":1},{\"pokemon\":{\"name\":\"whimsicott\",\"url\":\"https://pokeapi.co/api/v2/pokemon/547/\"},\"slot\":1},{\"pokemon\":{\"name\":\"petilil\",\"url\":\"https://pokeapi.co/api/v2/pokemon/548/\"},\"slot\":1},{\"pokemon\":{\"name\":\"lilligant\",\"url\":\"https://pokeapi.co/api/v2/pokemon/549/\"},\"slot\":1},{\"pokemon\":{\"name\":\"maractus\",\"url\":\"https://pokeapi.co/api/v2/pokemon/556/\"},\"slot\":1},{\"pokemon\":{\"name\":\"deerling\",\"url\":\"https://pokeapi.co/api/v2/pokemon/585/\"},\"slot\":2},{\"pokemon\":{\"name\":\"sawsbuck\",\"url\":\"https://pokeapi.co/api/v2/pokemon/586/\"},\"slot\":2},{\"pokemon\":{\"name\":\"foongus\",\"url\":\"https://pokeapi.co/api/v2/pokemon/590/\"},\"slot\":1},{\"pokemon\":{\"name\":\"amoonguss\",\"url\":\"https://pokeapi.co/api/v2/pokemon/591/\"},\"slot\":1},{\"pokemon\":{\"name\":\"ferroseed\",\"url\":\"https://pokeapi.co/api/v2/pokemon/597/\"},\"slot\":1},{\"pokemon\":{\"name\":\"ferrothorn\",\"url\":\"https://pokeapi.co/api/v2/pokemon/598/\"},\"slot\":1},{\"pokemon\":{\"name\":\"virizion\",\"url\":\"https://pokeapi.co/api/v2/pokemon/640/\"},\"slot\":1},{\"pokemon\":{\"name\":\"chespin\",\"url\":\"https://pokeapi.co/api/v2/pokemon/650/\"},\"slot\":1},{\"pokemon\":{\"name\":\"quilladin\",\"url\":\"https://pokeapi.co/api/v2/pokemon/651/\"},\"slot\":1},{\"pokemon\":{\"name\":\"chesnaught\",\"url\":\"https://pokeapi.co/api/v2/pokemon/652/\"},\"slot\":1},{\"pokemon\":{\"name\":\"skiddo\",\"url\":\"https://pokeapi.co/api/v2/pokemon/672/\"},\"slot\":1},{\"pokemon\":{\"name\":\"gogoat\",\"url\":\"https://pokeapi.co/api/v2/pokemon/673/\"},\"slot\":1},{\"pokemon\":{\"name\":\"phantump\",\"url\":\"https://pokeapi.co/api/v2/pokemon/708/\"},\"slot\":2},{\"pokemon\":{\"name\":\"trevenant\",\"url\":\"https://pokeapi.co/api/v2/pokemon/709/\"},\"slot\":2},{\"pokemon\":{\"name\":\"pumpkaboo-average\",\"url\":\"https://pokeapi.co/api/v2/pokemon/710/\"},\"slot\":2},{\"pokemon\":{\"name\":\"gourgeist-average\",\"url\":\"https://pokeapi.co/api/v2/pokemon/711/\"},\"slot\":2},{\"pokemon\":{\"name\":\"rowlet\",\"url\":\"https://pokeapi.co/api/v2/pokemon/722/\"},\"slot\":1},{\"pokemon\":{\"name\":\"dartrix\",\"url\":\"https://pokeapi.co/api/v2/pokemon/723/\"},\"slot\":1},{\"pokemon\":{\"name\":\"decidueye\",\"url\":\"https://pokeapi.co/api/v2/pokemon/724/\"},\"slot\":1},{\"pokemon\":{\"name\":\"fomantis\",\"url\":\"https://pokeapi.co/api/v2/pokemon/753/\"},\"slot\":1},{\"pokemon\":{\"name\":\"lurantis\",\"url\":\"https://pokeapi.co/api/v2/pokemon/754/\"},\"slot\":1},{\"pokemon\":{\"name\":\"morelull\",\"url\":\"https://pokeapi.co/api/v2/pokemon/755/\"},\"slot\":1},{\"pokemon\":{\"name\":\"shiinotic\",\"url\":\"https://pokeapi.co/api/v2/pokemon/756/\"},\"slot\":1},{\"pokemon\":{\"name\":\"bounsweet\",\"url\":\"https://pokeapi.co/api/v2/pokemon/761/\"},\"slot\":1},{\"pokemon\":{\"name\":\"steenee\",\"url\":\"https://pokeapi.co/api/v2/pokemon/762/\"},\"slot\":1},{\"pokemon\":{\"name\":\"tsareena\",\"url\":\"https://pokeapi.co/api/v2/pokemon/763/\"},\"slot\":1},{\"pokemon\":{\"name\":\"dhelmise\",\"url\":\"https://pokeapi.co/api/v2/pokemon/781/\"},\"slot\":2},{\"pokemon\":{\"name\":\"tapu-bulu\",\"url\":\"https://pokeapi.co/api/v2/pokemon/787/\"},\"slot\":1},{\"pokemon\":{\"name\":\"kartana\",\"url\":\"https://pokeapi.co/api/v2/pokemon/798/\"},\"slot\":1},{\"pokemon\":{\"name\":\"grookey\",\"url\":\"https://pokeapi.co/api/v2/pokemon/810/\"},\"slot\":1},{\"pokemon\":{\"name\":\"thwackey\",\"url\":\"https://pokeapi.co/api/v2/pokemon/811/\"},\"slot\":1},{\"pokemon\":{\"name\":\"rillaboom\",\"url\":\"https://pokeapi.co/api/v2/pokemon/812/\"},\"slot\":1},{\"pokemon\":{\"name\":\"gossifleur\",\"url\":\"https://pokeapi.co/api/v2/pokemon/829/\"},\"slot\":1},{\"pokemon\":{\"name\":\"eldegoss\",\"url\":\"https://pokeapi.co/api/v2/pokemon/830/\"},\"slot\":1},{\"pokemon\":{\"name\":\"applin\",\"url\":\"https://pokeapi.co/api/v2/pokemon/840/\"},\"slot\":1},{\"pokemon\":{\"name\":\"flapple\",\"url\":\"https://pokeapi.co/api/v2/pokemon/841/\"},\"slot\":1},{\"pokemon\":{\"name\":\"appletun\",\"url\":\"https://pokeapi.co/api/v2/pokemon/842/\"},\"slot\":1},{\"pokemon\":{\"name\":\"zarude\",\"url\":\"https://pokeapi.co/api/v2/pokemon/893/\"},\"slot\":2},{\"pokemon\":{\"name\":\"calyrex\",\"url\":\"https://pokeapi.co/api/v2/pokemon/898/\"},\"slot\":2},{\"pokemon\":{\"name\":\"shaymin-sky\",\"url\":\"https://pokeapi.co/api/v2/pokemon/10006/\"},\"slot\":1},{\"pokemon\":{\"name\":\"rotom-mow\",\"url\":\"https://pokeapi.co/api/v2/pokemon/10012/\"},\"slot\":2},{\"pokemon\":{\"name\":\"pumpkaboo-small\",\"url\":\"https://pokeapi.co/api/v2/pokemon/10027/\"},\"slot\":2},{\"pokemon\":{\"name\":\"pumpkaboo-large\",\"url\":\"https://pokeapi.co/api/v2/pokemon/10028/\"},\"slot\":2},{\"pokemon\":{\"name\":\"pumpkaboo-super\",\"url\":\"https://pokeapi.co/api/v2/pokemon/10029/\"},\"slot\":2},{\"pokemon\":{\"name\":\"gourgeist-small\",\"url\":\"https://pokeapi.co/api/v2/pokemon/10030/\"},\"slot\":2},{\"pokemon\":{\"name\":\"gourgeist-large\",\"url\":\"https://pokeapi.co/api/v2/pokemon/10031/\"},\"slot\":2},{\"pokemon\":{\"name\":\"gourgeist-super\",\"url\":\"https://pokeapi.co/api/v2/pokemon/10032/\"},\"slot\":2},{\"pokemon\":{\"name\":\"venusaur-mega\",\"url\":\"https://pokeapi.co/api/v2/pokemon/10033/\"},\"slot\":1},{\"pokemon\":{\"name\":\"abomasnow-mega\",\"url\":\"https://pokeapi.co/api/v2/pokemon/10060/\"},\"slot\":1},{\"pokemon\":{\"name\":\"sceptile-mega\",\"url\":\"https://pokeapi.co/api/v2/pokemon/10065/\"},\"slot\":1},{\"pokemon\":{\"name\":\"exeggutor-alola\",\"url\":\"https://pokeapi.co/api/v2/pokemon/10114/\"},\"slot\":1},{\"pokemon\":{\"name\":\"lurantis-totem\",\"url\":\"https://pokeapi.co/api/v2/pokemon/10128/\"},\"slot\":1},{\"pokemon\":{\"name\":\"venusaur-gmax\",\"url\":\"https://pokeapi.co/api/v2/pokemon/10186/\"},\"slot\":1},{\"pokemon\":{\"name\":\"rillaboom-gmax\",\"url\":\"https://pokeapi.co/api/v2/pokemon/10200/\"},\"slot\":1},{\"pokemon\":{\"name\":\"flapple-gmax\",\"url\":\"https://pokeapi.co/api/v2/pokemon/10207/\"},\"slot\":1},{\"pokemon\":{\"name\":\"appletun-gmax\",\"url\":\"https://pokeapi.co/api/v2/pokemon/10208/\"},\"slot\":1}]}",
+        "onvalueType": "json",
+        "onicon": "close",
+        "oncolor": "red",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "search",
+        "offcolor": "green",
+        "animate": true,
+        "x": 460,
+        "y": 180,
+        "wires": [
+            [
+                "2f7ee4796a1f30d0",
+                "de4e89f1b035ff6a"
+            ]
+        ]
+    },
+    {
+        "id": "13f46261055e44b9",
+        "type": "comment",
+        "z": "97e7b75be390e3e7",
+        "name": "planta",
+        "info": "{\n\"pokemon\": [\n    {\n      \"pokemon\": {\n        \"name\": \"bulbasaur\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/1/\"\n      },\n      \"slot\": 1\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"ivysaur\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/2/\"\n      },\n      \"slot\": 1\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"venusaur\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/3/\"\n      },\n      \"slot\": 1\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"oddish\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/43/\"\n      },\n      \"slot\": 1\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"gloom\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/44/\"\n      },\n      \"slot\": 1\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"vileplume\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/45/\"\n      },\n      \"slot\": 1\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"paras\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/46/\"\n      },\n      \"slot\": 2\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"parasect\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/47/\"\n      },\n      \"slot\": 2\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"bellsprout\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/69/\"\n      },\n      \"slot\": 1\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"weepinbell\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/70/\"\n      },\n      \"slot\": 1\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"victreebel\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/71/\"\n      },\n      \"slot\": 1\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"exeggcute\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/102/\"\n      },\n      \"slot\": 1\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"exeggutor\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/103/\"\n      },\n      \"slot\": 1\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"tangela\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/114/\"\n      },\n      \"slot\": 1\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"chikorita\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/152/\"\n      },\n      \"slot\": 1\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"bayleef\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/153/\"\n      },\n      \"slot\": 1\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"meganium\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/154/\"\n      },\n      \"slot\": 1\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"bellossom\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/182/\"\n      },\n      \"slot\": 1\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"hoppip\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/187/\"\n      },\n      \"slot\": 1\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"skiploom\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/188/\"\n      },\n      \"slot\": 1\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"jumpluff\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/189/\"\n      },\n      \"slot\": 1\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"sunkern\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/191/\"\n      },\n      \"slot\": 1\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"sunflora\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/192/\"\n      },\n      \"slot\": 1\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"celebi\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/251/\"\n      },\n      \"slot\": 2\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"treecko\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/252/\"\n      },\n      \"slot\": 1\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"grovyle\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/253/\"\n      },\n      \"slot\": 1\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"sceptile\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/254/\"\n      },\n      \"slot\": 1\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"lotad\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/270/\"\n      },\n      \"slot\": 2\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"lombre\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/271/\"\n      },\n      \"slot\": 2\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"ludicolo\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/272/\"\n      },\n      \"slot\": 2\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"seedot\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/273/\"\n      },\n      \"slot\": 1\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"nuzleaf\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/274/\"\n      },\n      \"slot\": 1\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"shiftry\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/275/\"\n      },\n      \"slot\": 1\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"shroomish\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/285/\"\n      },\n      \"slot\": 1\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"breloom\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/286/\"\n      },\n      \"slot\": 1\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"roselia\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/315/\"\n      },\n      \"slot\": 1\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"cacnea\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/331/\"\n      },\n      \"slot\": 1\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"cacturne\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/332/\"\n      },\n      \"slot\": 1\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"lileep\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/345/\"\n      },\n      \"slot\": 2\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"cradily\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/346/\"\n      },\n      \"slot\": 2\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"tropius\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/357/\"\n      },\n      \"slot\": 1\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"turtwig\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/387/\"\n      },\n      \"slot\": 1\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"grotle\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/388/\"\n      },\n      \"slot\": 1\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"torterra\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/389/\"\n      },\n      \"slot\": 1\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"budew\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/406/\"\n      },\n      \"slot\": 1\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"roserade\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/407/\"\n      },\n      \"slot\": 1\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"wormadam-plant\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/413/\"\n      },\n      \"slot\": 2\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"cherubi\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/420/\"\n      },\n      \"slot\": 1\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"cherrim\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/421/\"\n      },\n      \"slot\": 1\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"carnivine\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/455/\"\n      },\n      \"slot\": 1\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"snover\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/459/\"\n      },\n      \"slot\": 1\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"abomasnow\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/460/\"\n      },\n      \"slot\": 1\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"tangrowth\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/465/\"\n      },\n      \"slot\": 1\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"leafeon\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/470/\"\n      },\n      \"slot\": 1\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"shaymin-land\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/492/\"\n      },\n      \"slot\": 1\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"snivy\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/495/\"\n      },\n      \"slot\": 1\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"servine\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/496/\"\n      },\n      \"slot\": 1\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"serperior\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/497/\"\n      },\n      \"slot\": 1\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"pansage\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/511/\"\n      },\n      \"slot\": 1\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"simisage\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/512/\"\n      },\n      \"slot\": 1\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"sewaddle\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/540/\"\n      },\n      \"slot\": 2\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"swadloon\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/541/\"\n      },\n      \"slot\": 2\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"leavanny\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/542/\"\n      },\n      \"slot\": 2\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"cottonee\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/546/\"\n      },\n      \"slot\": 1\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"whimsicott\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/547/\"\n      },\n      \"slot\": 1\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"petilil\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/548/\"\n      },\n      \"slot\": 1\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"lilligant\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/549/\"\n      },\n      \"slot\": 1\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"maractus\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/556/\"\n      },\n      \"slot\": 1\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"deerling\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/585/\"\n      },\n      \"slot\": 2\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"sawsbuck\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/586/\"\n      },\n      \"slot\": 2\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"foongus\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/590/\"\n      },\n      \"slot\": 1\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"amoonguss\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/591/\"\n      },\n      \"slot\": 1\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"ferroseed\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/597/\"\n      },\n      \"slot\": 1\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"ferrothorn\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/598/\"\n      },\n      \"slot\": 1\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"virizion\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/640/\"\n      },\n      \"slot\": 1\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"chespin\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/650/\"\n      },\n      \"slot\": 1\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"quilladin\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/651/\"\n      },\n      \"slot\": 1\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"chesnaught\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/652/\"\n      },\n      \"slot\": 1\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"skiddo\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/672/\"\n      },\n      \"slot\": 1\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"gogoat\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/673/\"\n      },\n      \"slot\": 1\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"phantump\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/708/\"\n      },\n      \"slot\": 2\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"trevenant\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/709/\"\n      },\n      \"slot\": 2\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"pumpkaboo-average\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/710/\"\n      },\n      \"slot\": 2\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"gourgeist-average\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/711/\"\n      },\n      \"slot\": 2\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"rowlet\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/722/\"\n      },\n      \"slot\": 1\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"dartrix\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/723/\"\n      },\n      \"slot\": 1\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"decidueye\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/724/\"\n      },\n      \"slot\": 1\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"fomantis\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/753/\"\n      },\n      \"slot\": 1\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"lurantis\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/754/\"\n      },\n      \"slot\": 1\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"morelull\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/755/\"\n      },\n      \"slot\": 1\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"shiinotic\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/756/\"\n      },\n      \"slot\": 1\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"bounsweet\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/761/\"\n      },\n      \"slot\": 1\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"steenee\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/762/\"\n      },\n      \"slot\": 1\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"tsareena\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/763/\"\n      },\n      \"slot\": 1\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"dhelmise\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/781/\"\n      },\n      \"slot\": 2\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"tapu-bulu\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/787/\"\n      },\n      \"slot\": 1\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"kartana\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/798/\"\n      },\n      \"slot\": 1\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"grookey\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/810/\"\n      },\n      \"slot\": 1\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"thwackey\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/811/\"\n      },\n      \"slot\": 1\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"rillaboom\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/812/\"\n      },\n      \"slot\": 1\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"gossifleur\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/829/\"\n      },\n      \"slot\": 1\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"eldegoss\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/830/\"\n      },\n      \"slot\": 1\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"applin\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/840/\"\n      },\n      \"slot\": 1\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"flapple\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/841/\"\n      },\n      \"slot\": 1\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"appletun\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/842/\"\n      },\n      \"slot\": 1\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"zarude\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/893/\"\n      },\n      \"slot\": 2\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"calyrex\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/898/\"\n      },\n      \"slot\": 2\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"shaymin-sky\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/10006/\"\n      },\n      \"slot\": 1\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"rotom-mow\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/10012/\"\n      },\n      \"slot\": 2\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"pumpkaboo-small\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/10027/\"\n      },\n      \"slot\": 2\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"pumpkaboo-large\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/10028/\"\n      },\n      \"slot\": 2\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"pumpkaboo-super\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/10029/\"\n      },\n      \"slot\": 2\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"gourgeist-small\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/10030/\"\n      },\n      \"slot\": 2\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"gourgeist-large\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/10031/\"\n      },\n      \"slot\": 2\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"gourgeist-super\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/10032/\"\n      },\n      \"slot\": 2\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"venusaur-mega\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/10033/\"\n      },\n      \"slot\": 1\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"abomasnow-mega\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/10060/\"\n      },\n      \"slot\": 1\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"sceptile-mega\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/10065/\"\n      },\n      \"slot\": 1\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"exeggutor-alola\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/10114/\"\n      },\n      \"slot\": 1\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"lurantis-totem\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/10128/\"\n      },\n      \"slot\": 1\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"venusaur-gmax\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/10186/\"\n      },\n      \"slot\": 1\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"rillaboom-gmax\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/10200/\"\n      },\n      \"slot\": 1\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"flapple-gmax\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/10207/\"\n      },\n      \"slot\": 1\n    },\n    {\n      \"pokemon\": {\n        \"name\": \"appletun-gmax\",\n        \"url\": \"https://pokeapi.co/api/v2/pokemon/10208/\"\n      },\n      \"slot\": 1\n    }\n  ]\n}",
+        "x": 180,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "de4e89f1b035ff6a",
+        "type": "ui_text",
+        "z": "97e7b75be390e3e7",
+        "group": "161c51ef9e739893",
+        "order": 25,
+        "width": 0,
+        "height": 0,
+        "name": "TipoPlanta",
+        "label": "Listado",
+        "format": "<br>{{msg.payload.pokemon.length}}<br><br>{{msg.payload.pokemon[0].pokemon.name}}<br>{{msg.payload.pokemon[1].pokemon.name}}<br>{{msg.payload.pokemon[2].pokemon.name}}<br>{{msg.payload.pokemon[3].pokemon.name}}<br>{{msg.payload.pokemon[4].pokemon.name}}<br>{{msg.payload.pokemon[5].pokemon.name}}<br>{{msg.payload.pokemon[6].pokemon.name}}<br>{{msg.payload.pokemon[7].pokemon.name}}<br>{{msg.payload.pokemon[8].pokemon.name}}<br>{{msg.payload.pokemon[9].pokemon.name}}<br>{{msg.payload.pokemon[10].pokemon.name}}<br>{{msg.payload.pokemon[11].pokemon.name}}<br>{{msg.payload.pokemon[12].pokemon.name}}<br>{{msg.payload.pokemon[13].pokemon.name}}<br>{{msg.payload.pokemon[14].pokemon.name}}<br>{{msg.payload.pokemon[15].pokemon.name}}<br>{{msg.payload.pokemon[16].pokemon.name}}<br>{{msg.payload.pokemon[17].pokemon.name}}<br>{{msg.payload.pokemon[18].pokemon.name}}<br>{{msg.payload.pokemon[19].pokemon.name}}<br>{{msg.payload.pokemon[20].pokemon.name}}<br> {{msg.payload.pokemon[21].pokemon.name}}<br> {{msg.payload.pokemon[22].pokemon.name}}<br> {{msg.payload.pokemon[23].pokemon.name}}<br> {{msg.payload.pokemon[24].pokemon.name}}<br> {{msg.payload.pokemon[25].pokemon.name}}<br> {{msg.payload.pokemon[26].pokemon.name}}<br> {{msg.payload.pokemon[27].pokemon.name}}<br> {{msg.payload.pokemon[28].pokemon.name}}<br> {{msg.payload.pokemon[29].pokemon.name}}<br> {{msg.payload.pokemon[30].pokemon.name}}<br> {{msg.payload.pokemon[31].pokemon.name}}<br> {{msg.payload.pokemon[32].pokemon.name}}<br> {{msg.payload.pokemon[33].pokemon.name}}<br> {{msg.payload.pokemon[34].pokemon.name}}<br> {{msg.payload.pokemon[35].pokemon.name}}<br> {{msg.payload.pokemon[36].pokemon.name}}<br> {{msg.payload.pokemon[37].pokemon.name}}<br> {{msg.payload.pokemon[38].pokemon.name}}<br> {{msg.payload.pokemon[39].pokemon.name}}<br> {{msg.payload.pokemon[40].pokemon.name}}<br> {{msg.payload.pokemon[41].pokemon.name}}<br> {{msg.payload.pokemon[42].pokemon.name}}<br> {{msg.payload.pokemon[43].pokemon.name}}<br> {{msg.payload.pokemon[44].pokemon.name}}<br> {{msg.payload.pokemon[45].pokemon.name}}<br> {{msg.payload.pokemon[46].pokemon.name}}<br> {{msg.payload.pokemon[47].pokemon.name}}<br> {{msg.payload.pokemon[48].pokemon.name}}<br> {{msg.payload.pokemon[49].pokemon.name}}<br> {{msg.payload.pokemon[50].pokemon.name}}<br> {{msg.payload.pokemon[51].pokemon.name}}<br> {{msg.payload.pokemon[52].pokemon.name}}<br> {{msg.payload.pokemon[53].pokemon.name}}<br> {{msg.payload.pokemon[54].pokemon.name}}<br> {{msg.payload.pokemon[55].pokemon.name}}<br> {{msg.payload.pokemon[56].pokemon.name}}<br> {{msg.payload.pokemon[57].pokemon.name}}<br> {{msg.payload.pokemon[58].pokemon.name}}<br> {{msg.payload.pokemon[58].pokemon.name}}<br> {{msg.payload.pokemon[60].pokemon.name}}<br> {{msg.payload.pokemon[61].pokemon.name}}<br> {{msg.payload.pokemon[62].pokemon.name}}<br> {{msg.payload.pokemon[63].pokemon.name}}<br> {{msg.payload.pokemon[64].pokemon.name}}<br> {{msg.payload.pokemon[65].pokemon.name}}<br> {{msg.payload.pokemon[66].pokemon.name}}<br> {{msg.payload.pokemon[67].pokemon.name}}<br> {{msg.payload.pokemon[68].pokemon.name}}<br> {{msg.payload.pokemon[69].pokemon.name}}<br> {{msg.payload.pokemon[70].pokemon.name}}<br> {{msg.payload.pokemon[71].pokemon.name}}<br> {{msg.payload.pokemon[72].pokemon.name}}<br> {{msg.payload.pokemon[73].pokemon.name}}<br> {{msg.payload.pokemon[74].pokemon.name}}<br> {{msg.payload.pokemon[75].pokemon.name}}<br> {{msg.payload.pokemon[76].pokemon.name}}<br> {{msg.payload.pokemon[77].pokemon.name}}<br> {{msg.payload.pokemon[78].pokemon.name}}<br> {{msg.payload.pokemon[79].pokemon.name}}<br> {{msg.payload.pokemon[80].pokemon.name}}<br> {{msg.payload.pokemon[81].pokemon.name}}<br> {{msg.payload.pokemon[82].pokemon.name}}<br> {{msg.payload.pokemon[83].pokemon.name}}<br> {{msg.payload.pokemon[84].pokemon.name}}<br> {{msg.payload.pokemon[85].pokemon.name}}<br> {{msg.payload.pokemon[86].pokemon.name}}<br> {{msg.payload.pokemon[87].pokemon.name}}<br> {{msg.payload.pokemon[88].pokemon.name}}<br> {{msg.payload.pokemon[89].pokemon.name}}<br> {{msg.payload.pokemon[90].pokemon.name}}<br> {{msg.payload.pokemon[91].pokemon.name}}<br> {{msg.payload.pokemon[92].pokemon.name}}<br> {{msg.payload.pokemon[93].pokemon.name}}<br> {{msg.payload.pokemon[94].pokemon.name}}<br>{{msg.payload.pokemon[95].pokemon.name}}<br> {{msg.payload.pokemon[96].pokemon.name}}<br> {{msg.payload.pokemon[97].pokemon.name}}<br> {{msg.payload.pokemon[98].pokemon.name}}<br> {{msg.payload.pokemon[99].pokemon.name}}<br> {{msg.payload.pokemon[100].pokemon.name}}<br> {{msg.payload.pokemon[101].pokemon.name}}<br> {{msg.payload.pokemon[102].pokemon.name}}<br> {{msg.payload.pokemon[103].pokemon.name}}<br> {{msg.payload.pokemon[104].pokemon.name}}<br> {{msg.payload.pokemon[105].pokemon.name}}<br> {{msg.payload.pokemon[106].pokemon.name}}<br> {{msg.payload.pokemon[107].pokemon.name}}<br> {{msg.payload.pokemon[108].pokemon.name}}<br> {{msg.payload.pokemon[109].pokemon.name}}<br> {{msg.payload.pokemon[110].pokemon.name}}<br> {{msg.payload.pokemon[111].pokemon.name}}<br> {{msg.payload.pokemon[112].pokemon.name}}<br> {{msg.payload.pokemon[113].pokemon.name}}<br> {{msg.payload.pokemon[114].pokemon.name}}<br> {{msg.payload.pokemon[115].pokemon.name}}<br> {{msg.payload.pokemon[116].pokemon.name}}<br> {{msg.payload.pokemon[117].pokemon.name}}<br> {{msg.payload.pokemon[118].pokemon.name}}<br> {{msg.payload.pokemon[119].pokemon.name}}<br> {{msg.payload.pokemon[120].pokemon.name}}<br> {{msg.payload.pokemon[121].pokemon.name}}<br> {{msg.payload.pokemon[122].pokemon.name}}<br> {{msg.payload.pokemon[123].pokemon.name}}",
+        "layout": "col-center",
+        "x": 610,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "2f7ee4796a1f30d0",
+        "type": "debug",
+        "z": "97e7b75be390e3e7",
+        "name": "Grass",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 770,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "488752f3603386e3",
+        "type": "http request",
+        "z": "97e7b75be390e3e7",
+        "name": "E",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "body",
+        "url": "https://pokeapi.co/api/v2/type/13",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "x": 290,
+        "y": 260,
+        "wires": [
+            [
+                "2ded738bcf1840f0"
+            ]
+        ]
+    },
+    {
+        "id": "f02ce070359ff84d",
+        "type": "ui_switch",
+        "z": "97e7b75be390e3e7",
+        "name": "Mostrar",
+        "label": "Ocultar / Mostrar",
+        "tooltip": "",
+        "group": "48b67d6aab756ca4",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "{\"pokemon\":[{\"pokemon\":{\"name\":\"pikachu\",\"url\":\"https://pokeapi.co/api/v2/pokemon/25/\"},\"slot\":1},{\"pokemon\":{\"name\":\"raichu\",\"url\":\"https://pokeapi.co/api/v2/pokemon/26/\"},\"slot\":1},{\"pokemon\":{\"name\":\"magnemite\",\"url\":\"https://pokeapi.co/api/v2/pokemon/81/\"},\"slot\":1},{\"pokemon\":{\"name\":\"magneton\",\"url\":\"https://pokeapi.co/api/v2/pokemon/82/\"},\"slot\":1},{\"pokemon\":{\"name\":\"voltorb\",\"url\":\"https://pokeapi.co/api/v2/pokemon/100/\"},\"slot\":1},{\"pokemon\":{\"name\":\"electrode\",\"url\":\"https://pokeapi.co/api/v2/pokemon/101/\"},\"slot\":1},{\"pokemon\":{\"name\":\"electabuzz\",\"url\":\"https://pokeapi.co/api/v2/pokemon/125/\"},\"slot\":1},{\"pokemon\":{\"name\":\"jolteon\",\"url\":\"https://pokeapi.co/api/v2/pokemon/135/\"},\"slot\":1},{\"pokemon\":{\"name\":\"zapdos\",\"url\":\"https://pokeapi.co/api/v2/pokemon/145/\"},\"slot\":1},{\"pokemon\":{\"name\":\"chinchou\",\"url\":\"https://pokeapi.co/api/v2/pokemon/170/\"},\"slot\":2},{\"pokemon\":{\"name\":\"lanturn\",\"url\":\"https://pokeapi.co/api/v2/pokemon/171/\"},\"slot\":2},{\"pokemon\":{\"name\":\"pichu\",\"url\":\"https://pokeapi.co/api/v2/pokemon/172/\"},\"slot\":1},{\"pokemon\":{\"name\":\"mareep\",\"url\":\"https://pokeapi.co/api/v2/pokemon/179/\"},\"slot\":1},{\"pokemon\":{\"name\":\"flaaffy\",\"url\":\"https://pokeapi.co/api/v2/pokemon/180/\"},\"slot\":1},{\"pokemon\":{\"name\":\"ampharos\",\"url\":\"https://pokeapi.co/api/v2/pokemon/181/\"},\"slot\":1},{\"pokemon\":{\"name\":\"elekid\",\"url\":\"https://pokeapi.co/api/v2/pokemon/239/\"},\"slot\":1},{\"pokemon\":{\"name\":\"raikou\",\"url\":\"https://pokeapi.co/api/v2/pokemon/243/\"},\"slot\":1},{\"pokemon\":{\"name\":\"electrike\",\"url\":\"https://pokeapi.co/api/v2/pokemon/309/\"},\"slot\":1},{\"pokemon\":{\"name\":\"manectric\",\"url\":\"https://pokeapi.co/api/v2/pokemon/310/\"},\"slot\":1},{\"pokemon\":{\"name\":\"plusle\",\"url\":\"https://pokeapi.co/api/v2/pokemon/311/\"},\"slot\":1},{\"pokemon\":{\"name\":\"minun\",\"url\":\"https://pokeapi.co/api/v2/pokemon/312/\"},\"slot\":1},{\"pokemon\":{\"name\":\"shinx\",\"url\":\"https://pokeapi.co/api/v2/pokemon/403/\"},\"slot\":1},{\"pokemon\":{\"name\":\"luxio\",\"url\":\"https://pokeapi.co/api/v2/pokemon/404/\"},\"slot\":1},{\"pokemon\":{\"name\":\"luxray\",\"url\":\"https://pokeapi.co/api/v2/pokemon/405/\"},\"slot\":1},{\"pokemon\":{\"name\":\"pachirisu\",\"url\":\"https://pokeapi.co/api/v2/pokemon/417/\"},\"slot\":1},{\"pokemon\":{\"name\":\"magnezone\",\"url\":\"https://pokeapi.co/api/v2/pokemon/462/\"},\"slot\":1},{\"pokemon\":{\"name\":\"electivire\",\"url\":\"https://pokeapi.co/api/v2/pokemon/466/\"},\"slot\":1},{\"pokemon\":{\"name\":\"rotom\",\"url\":\"https://pokeapi.co/api/v2/pokemon/479/\"},\"slot\":1},{\"pokemon\":{\"name\":\"blitzle\",\"url\":\"https://pokeapi.co/api/v2/pokemon/522/\"},\"slot\":1},{\"pokemon\":{\"name\":\"zebstrika\",\"url\":\"https://pokeapi.co/api/v2/pokemon/523/\"},\"slot\":1},{\"pokemon\":{\"name\":\"emolga\",\"url\":\"https://pokeapi.co/api/v2/pokemon/587/\"},\"slot\":1},{\"pokemon\":{\"name\":\"joltik\",\"url\":\"https://pokeapi.co/api/v2/pokemon/595/\"},\"slot\":2},{\"pokemon\":{\"name\":\"galvantula\",\"url\":\"https://pokeapi.co/api/v2/pokemon/596/\"},\"slot\":2},{\"pokemon\":{\"name\":\"tynamo\",\"url\":\"https://pokeapi.co/api/v2/pokemon/602/\"},\"slot\":1},{\"pokemon\":{\"name\":\"eelektrik\",\"url\":\"https://pokeapi.co/api/v2/pokemon/603/\"},\"slot\":1},{\"pokemon\":{\"name\":\"eelektross\",\"url\":\"https://pokeapi.co/api/v2/pokemon/604/\"},\"slot\":1},{\"pokemon\":{\"name\":\"stunfisk\",\"url\":\"https://pokeapi.co/api/v2/pokemon/618/\"},\"slot\":2},{\"pokemon\":{\"name\":\"thundurus-incarnate\",\"url\":\"https://pokeapi.co/api/v2/pokemon/642/\"},\"slot\":1},{\"pokemon\":{\"name\":\"zekrom\",\"url\":\"https://pokeapi.co/api/v2/pokemon/644/\"},\"slot\":2},{\"pokemon\":{\"name\":\"helioptile\",\"url\":\"https://pokeapi.co/api/v2/pokemon/694/\"},\"slot\":1},{\"pokemon\":{\"name\":\"heliolisk\",\"url\":\"https://pokeapi.co/api/v2/pokemon/695/\"},\"slot\":1},{\"pokemon\":{\"name\":\"dedenne\",\"url\":\"https://pokeapi.co/api/v2/pokemon/702/\"},\"slot\":1},{\"pokemon\":{\"name\":\"charjabug\",\"url\":\"https://pokeapi.co/api/v2/pokemon/737/\"},\"slot\":2},{\"pokemon\":{\"name\":\"vikavolt\",\"url\":\"https://pokeapi.co/api/v2/pokemon/738/\"},\"slot\":2},{\"pokemon\":{\"name\":\"togedemaru\",\"url\":\"https://pokeapi.co/api/v2/pokemon/777/\"},\"slot\":1},{\"pokemon\":{\"name\":\"tapu-koko\",\"url\":\"https://pokeapi.co/api/v2/pokemon/785/\"},\"slot\":1},{\"pokemon\":{\"name\":\"xurkitree\",\"url\":\"https://pokeapi.co/api/v2/pokemon/796/\"},\"slot\":1},{\"pokemon\":{\"name\":\"zeraora\",\"url\":\"https://pokeapi.co/api/v2/pokemon/807/\"},\"slot\":1},{\"pokemon\":{\"name\":\"yamper\",\"url\":\"https://pokeapi.co/api/v2/pokemon/835/\"},\"slot\":1},{\"pokemon\":{\"name\":\"boltund\",\"url\":\"https://pokeapi.co/api/v2/pokemon/836/\"},\"slot\":1},{\"pokemon\":{\"name\":\"toxel\",\"url\":\"https://pokeapi.co/api/v2/pokemon/848/\"},\"slot\":1},{\"pokemon\":{\"name\":\"toxtricity-amped\",\"url\":\"https://pokeapi.co/api/v2/pokemon/849/\"},\"slot\":1},{\"pokemon\":{\"name\":\"pincurchin\",\"url\":\"https://pokeapi.co/api/v2/pokemon/871/\"},\"slot\":1},{\"pokemon\":{\"name\":\"morpeko\",\"url\":\"https://pokeapi.co/api/v2/pokemon/877/\"},\"slot\":1},{\"pokemon\":{\"name\":\"dracozolt\",\"url\":\"https://pokeapi.co/api/v2/pokemon/880/\"},\"slot\":1},{\"pokemon\":{\"name\":\"arctozolt\",\"url\":\"https://pokeapi.co/api/v2/pokemon/881/\"},\"slot\":1},{\"pokemon\":{\"name\":\"regieleki\",\"url\":\"https://pokeapi.co/api/v2/pokemon/894/\"},\"slot\":1},{\"pokemon\":{\"name\":\"rotom-heat\",\"url\":\"https://pokeapi.co/api/v2/pokemon/10008/\"},\"slot\":1},{\"pokemon\":{\"name\":\"rotom-wash\",\"url\":\"https://pokeapi.co/api/v2/pokemon/10009/\"},\"slot\":1},{\"pokemon\":{\"name\":\"rotom-frost\",\"url\":\"https://pokeapi.co/api/v2/pokemon/10010/\"},\"slot\":1},{\"pokemon\":{\"name\":\"rotom-fan\",\"url\":\"https://pokeapi.co/api/v2/pokemon/10011/\"},\"slot\":1},{\"pokemon\":{\"name\":\"rotom-mow\",\"url\":\"https://pokeapi.co/api/v2/pokemon/10012/\"},\"slot\":1},{\"pokemon\":{\"name\":\"thundurus-therian\",\"url\":\"https://pokeapi.co/api/v2/pokemon/10020/\"},\"slot\":1},{\"pokemon\":{\"name\":\"ampharos-mega\",\"url\":\"https://pokeapi.co/api/v2/pokemon/10045/\"},\"slot\":1},{\"pokemon\":{\"name\":\"manectric-mega\",\"url\":\"https://pokeapi.co/api/v2/pokemon/10055/\"},\"slot\":1},{\"pokemon\":{\"name\":\"pikachu-rock-star\",\"url\":\"https://pokeapi.co/api/v2/pokemon/10080/\"},\"slot\":1},{\"pokemon\":{\"name\":\"pikachu-belle\",\"url\":\"https://pokeapi.co/api/v2/pokemon/10081/\"},\"slot\":1},{\"pokemon\":{\"name\":\"pikachu-pop-star\",\"url\":\"https://pokeapi.co/api/v2/pokemon/10082/\"},\"slot\":1},{\"pokemon\":{\"name\":\"pikachu-phd\",\"url\":\"https://pokeapi.co/api/v2/pokemon/10083/\"},\"slot\":1},{\"pokemon\":{\"name\":\"pikachu-libre\",\"url\":\"https://pokeapi.co/api/v2/pokemon/10084/\"},\"slot\":1},{\"pokemon\":{\"name\":\"pikachu-cosplay\",\"url\":\"https://pokeapi.co/api/v2/pokemon/10085/\"},\"slot\":1},{\"pokemon\":{\"name\":\"pikachu-original-cap\",\"url\":\"https://pokeapi.co/api/v2/pokemon/10094/\"},\"slot\":1},{\"pokemon\":{\"name\":\"pikachu-hoenn-cap\",\"url\":\"https://pokeapi.co/api/v2/pokemon/10095/\"},\"slot\":1},{\"pokemon\":{\"name\":\"pikachu-sinnoh-cap\",\"url\":\"https://pokeapi.co/api/v2/pokemon/10096/\"},\"slot\":1},{\"pokemon\":{\"name\":\"pikachu-unova-cap\",\"url\":\"https://pokeapi.co/api/v2/pokemon/10097/\"},\"slot\":1},{\"pokemon\":{\"name\":\"pikachu-kalos-cap\",\"url\":\"https://pokeapi.co/api/v2/pokemon/10098/\"},\"slot\":1},{\"pokemon\":{\"name\":\"pikachu-alola-cap\",\"url\":\"https://pokeapi.co/api/v2/pokemon/10099/\"},\"slot\":1},{\"pokemon\":{\"name\":\"raichu-alola\",\"url\":\"https://pokeapi.co/api/v2/pokemon/10100/\"},\"slot\":1},{\"pokemon\":{\"name\":\"geodude-alola\",\"url\":\"https://pokeapi.co/api/v2/pokemon/10109/\"},\"slot\":2},{\"pokemon\":{\"name\":\"graveler-alola\",\"url\":\"https://pokeapi.co/api/v2/pokemon/10110/\"},\"slot\":2},{\"pokemon\":{\"name\":\"golem-alola\",\"url\":\"https://pokeapi.co/api/v2/pokemon/10111/\"},\"slot\":2},{\"pokemon\":{\"name\":\"vikavolt-totem\",\"url\":\"https://pokeapi.co/api/v2/pokemon/10122/\"},\"slot\":2},{\"pokemon\":{\"name\":\"oricorio-pom-pom\",\"url\":\"https://pokeapi.co/api/v2/pokemon/10123/\"},\"slot\":1},{\"pokemon\":{\"name\":\"pikachu-partner-cap\",\"url\":\"https://pokeapi.co/api/v2/pokemon/10148/\"},\"slot\":1},{\"pokemon\":{\"name\":\"togedemaru-totem\",\"url\":\"https://pokeapi.co/api/v2/pokemon/10154/\"},\"slot\":1},{\"pokemon\":{\"name\":\"toxtricity-low-key\",\"url\":\"https://pokeapi.co/api/v2/pokemon/10178/\"},\"slot\":1},{\"pokemon\":{\"name\":\"pikachu-gmax\",\"url\":\"https://pokeapi.co/api/v2/pokemon/10190/\"},\"slot\":1},{\"pokemon\":{\"name\":\"toxtricity-amped-gmax\",\"url\":\"https://pokeapi.co/api/v2/pokemon/10210/\"},\"slot\":1},{\"pokemon\":{\"name\":\"toxtricity-low-key-gmax\",\"url\":\"https://pokeapi.co/api/v2/pokemon/10220/\"},\"slot\":1}]}",
+        "onvalueType": "json",
+        "onicon": "close",
+        "oncolor": "red",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "search",
+        "offcolor": "yellow",
+        "animate": false,
+        "x": 460,
+        "y": 260,
+        "wires": [
+            [
+                "b607a41ce69c49a0"
+            ]
+        ]
+    },
+    {
+        "id": "b607a41ce69c49a0",
+        "type": "ui_text",
+        "z": "97e7b75be390e3e7",
+        "group": "48b67d6aab756ca4",
+        "order": 29,
+        "width": "6",
+        "height": "2",
+        "name": "TipoElectrico",
+        "label": "Listado",
+        "format": "{{msg.payload.pokemon.length}}<br><br>{{msg.payload.pokemon[0].pokemon.name}}<br>{{msg.payload.pokemon[1].pokemon.name}}<br>{{msg.payload.pokemon[2].pokemon.name}}<br>{{msg.payload.pokemon[3].pokemon.name}}<br>{{msg.payload.pokemon[4].pokemon.name}}<br>{{msg.payload.pokemon[5].pokemon.name}}<br>{{msg.payload.pokemon[6].pokemon.name}}<br>{{msg.payload.pokemon[7].pokemon.name}}<br>{{msg.payload.pokemon[8].pokemon.name}}<br>{{msg.payload.pokemon[9].pokemon.name}}<br>{{msg.payload.pokemon[10].pokemon.name}}<br>{{msg.payload.pokemon[11].pokemon.name}}<br>{{msg.payload.pokemon[12].pokemon.name}}<br>{{msg.payload.pokemon[13].pokemon.name}}<br>{{msg.payload.pokemon[14].pokemon.name}}<br>{{msg.payload.pokemon[15].pokemon.name}}<br>{{msg.payload.pokemon[16].pokemon.name}}<br>{{msg.payload.pokemon[17].pokemon.name}}<br>{{msg.payload.pokemon[18].pokemon.name}}<br>{{msg.payload.pokemon[19].pokemon.name}}<br>{{msg.payload.pokemon[20].pokemon.name}}<br> {{msg.payload.pokemon[21].pokemon.name}}<br> {{msg.payload.pokemon[22].pokemon.name}}<br> {{msg.payload.pokemon[23].pokemon.name}}<br> {{msg.payload.pokemon[24].pokemon.name}}<br> {{msg.payload.pokemon[25].pokemon.name}}<br> {{msg.payload.pokemon[26].pokemon.name}}<br> {{msg.payload.pokemon[27].pokemon.name}}<br> {{msg.payload.pokemon[28].pokemon.name}}<br> {{msg.payload.pokemon[29].pokemon.name}}<br> {{msg.payload.pokemon[30].pokemon.name}}<br> {{msg.payload.pokemon[31].pokemon.name}}<br> {{msg.payload.pokemon[32].pokemon.name}}<br> {{msg.payload.pokemon[33].pokemon.name}}<br> {{msg.payload.pokemon[34].pokemon.name}}<br> {{msg.payload.pokemon[35].pokemon.name}}<br> {{msg.payload.pokemon[36].pokemon.name}}<br> {{msg.payload.pokemon[37].pokemon.name}}<br> {{msg.payload.pokemon[38].pokemon.name}}<br> {{msg.payload.pokemon[39].pokemon.name}}<br> {{msg.payload.pokemon[40].pokemon.name}}<br> {{msg.payload.pokemon[41].pokemon.name}}<br> {{msg.payload.pokemon[42].pokemon.name}}<br> {{msg.payload.pokemon[43].pokemon.name}}<br> {{msg.payload.pokemon[44].pokemon.name}}<br> {{msg.payload.pokemon[45].pokemon.name}}<br> {{msg.payload.pokemon[46].pokemon.name}}<br> {{msg.payload.pokemon[47].pokemon.name}}<br> {{msg.payload.pokemon[48].pokemon.name}}<br> {{msg.payload.pokemon[49].pokemon.name}}<br> {{msg.payload.pokemon[50].pokemon.name}}<br> {{msg.payload.pokemon[51].pokemon.name}}<br> {{msg.payload.pokemon[52].pokemon.name}}<br> {{msg.payload.pokemon[53].pokemon.name}}<br> {{msg.payload.pokemon[54].pokemon.name}}<br> {{msg.payload.pokemon[55].pokemon.name}}<br> {{msg.payload.pokemon[56].pokemon.name}}<br> {{msg.payload.pokemon[57].pokemon.name}}<br> {{msg.payload.pokemon[58].pokemon.name}}<br> {{msg.payload.pokemon[58].pokemon.name}}<br> {{msg.payload.pokemon[60].pokemon.name}}<br> {{msg.payload.pokemon[61].pokemon.name}}<br> {{msg.payload.pokemon[62].pokemon.name}}<br> {{msg.payload.pokemon[63].pokemon.name}}<br> {{msg.payload.pokemon[64].pokemon.name}}<br> {{msg.payload.pokemon[65].pokemon.name}}<br> {{msg.payload.pokemon[66].pokemon.name}}<br> {{msg.payload.pokemon[67].pokemon.name}}<br> {{msg.payload.pokemon[68].pokemon.name}}<br> {{msg.payload.pokemon[69].pokemon.name}}<br> {{msg.payload.pokemon[70].pokemon.name}}<br> {{msg.payload.pokemon[71].pokemon.name}}<br> {{msg.payload.pokemon[72].pokemon.name}}<br> {{msg.payload.pokemon[73].pokemon.name}}<br> {{msg.payload.pokemon[74].pokemon.name}}<br> {{msg.payload.pokemon[75].pokemon.name}}<br> {{msg.payload.pokemon[76].pokemon.name}}<br> {{msg.payload.pokemon[77].pokemon.name}}<br> {{msg.payload.pokemon[78].pokemon.name}}<br> {{msg.payload.pokemon[79].pokemon.name}}<br> {{msg.payload.pokemon[80].pokemon.name}}<br> {{msg.payload.pokemon[81].pokemon.name}}<br> {{msg.payload.pokemon[82].pokemon.name}}<br> {{msg.payload.pokemon[83].pokemon.name}}<br> {{msg.payload.pokemon[84].pokemon.name}}<br> {{msg.payload.pokemon[85].pokemon.name}}<br> {{msg.payload.pokemon[86].pokemon.name}}<br> {{msg.payload.pokemon[87].pokemon.name}}<br> {{msg.payload.pokemon[88].pokemon.name}}<br> {{msg.payload.pokemon[89].pokemon.name}}<br> {{msg.payload.pokemon[90].pokemon.name}}<br> {{msg.payload.pokemon[91].pokemon.name}}<br> {{msg.payload.pokemon[92].pokemon.name}}<br> {{msg.payload.pokemon[93].pokemon.name}}<br> {{msg.payload.pokemon[94].pokemon.name}}<br>{{msg.payload.pokemon[95].pokemon.name}}<br> {{msg.payload.pokemon[96].pokemon.name}}<br> {{msg.payload.pokemon[97].pokemon.name}}<br> {{msg.payload.pokemon[98].pokemon.name}}<br> {{msg.payload.pokemon[99].pokemon.name}}<br> {{msg.payload.pokemon[100].pokemon.name}}<br> {{msg.payload.pokemon[101].pokemon.name}}<br> {{msg.payload.pokemon[102].pokemon.name}}<br> {{msg.payload.pokemon[103].pokemon.name}}<br> {{msg.payload.pokemon[104].pokemon.name}}<br> {{msg.payload.pokemon[105].pokemon.name}}<br> {{msg.payload.pokemon[106].pokemon.name}}<br> {{msg.payload.pokemon[107].pokemon.name}}<br> {{msg.payload.pokemon[108].pokemon.name}}<br> {{msg.payload.pokemon[109].pokemon.name}}<br> {{msg.payload.pokemon[110].pokemon.name}}<br> {{msg.payload.pokemon[111].pokemon.name}}<br> {{msg.payload.pokemon[112].pokemon.name}}<br> {{msg.payload.pokemon[113].pokemon.name}}<br> {{msg.payload.pokemon[114].pokemon.name}}<br> {{msg.payload.pokemon[115].pokemon.name}}<br> {{msg.payload.pokemon[116].pokemon.name}}<br> {{msg.payload.pokemon[117].pokemon.name}}<br> {{msg.payload.pokemon[118].pokemon.name}}<br> {{msg.payload.pokemon[119].pokemon.name}}<br> {{msg.payload.pokemon[120].pokemon.name}}<br> {{msg.payload.pokemon[121].pokemon.name}}<br> {{msg.payload.pokemon[122].pokemon.name}}<br> {{msg.payload.pokemon[123].pokemon.name}}",
+        "layout": "col-center",
+        "x": 610,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "2ded738bcf1840f0",
+        "type": "debug",
+        "z": "97e7b75be390e3e7",
+        "name": "Electric",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 780,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "1322553221e46eb3",
+        "type": "inject",
+        "z": "19a22018284eaacd",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 130,
+        "y": 200,
+        "wires": [
+            [
+                "cb80cc57cb7b75b5",
+                "b1f31dd7d99a6ef3",
+                "65869e56b685d014"
+            ]
+        ]
+    },
+    {
+        "id": "f552610115c32294",
+        "type": "debug",
+        "z": "19a22018284eaacd",
+        "name": "Pikachu",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 760,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "cb80cc57cb7b75b5",
+        "type": "http request",
+        "z": "19a22018284eaacd",
+        "name": "",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "body",
+        "url": "https://pokeapi.co/api/v2/pokemon/pikachu",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "x": 330,
+        "y": 200,
+        "wires": [
+            [
+                "d2ccdef608f840d1"
+            ]
+        ]
+    },
+    {
+        "id": "d2ccdef608f840d1",
+        "type": "ui_template",
+        "z": "19a22018284eaacd",
+        "group": "1e22113e87b6dbce",
+        "name": "",
+        "order": 2,
+        "width": "0",
+        "height": "0",
+        "format": "\n\n<html>\n    <head>\n       <title>Pikachu</title> \n    </head>\n<body>\n    <h1 style=text-alaing:center>Pikachu</h1>\n    \n    <div>\n        <img src=\"/pika.png\" /><br>\n        \n        <h3>Stats</h3>\n        <ul>\n            <li>{{msg.payload.stats[0].base_stat}} {{msg.payload.stats[0].stat.name}} </li>\n            <li>{{msg.payload.stats[1].base_stat}} {{msg.payload.stats[1].stat.name}} </li>\n            <li>{{msg.payload.stats[2].base_stat}} {{msg.payload.stats[2].stat.name}} </li>\n            <li>{{msg.payload.stats[3].base_stat}} {{msg.payload.stats[3].stat.name}} </li>\n            <li>{{msg.payload.stats[4].base_stat}} {{msg.payload.stats[4].stat.name}} </li>\n            <li>{{msg.payload.stats[5].base_stat}} {{msg.payload.stats[5].stat.name}} </li>\n            \n        </ul>\n        \n    <div>\n        <h3 style=\"color:red\";>Ataques</h3>\n        <ul>\n            <li>{{msg.payload.moves[0].move.name}}</li>\n            <li>{{msg.payload.moves[1].move.name}}</li>\n            <li>{{msg.payload.moves[2].move.name}}</li>\n            <li>{{msg.payload.moves[3].move.name}}</li>\n            <li>{{msg.payload.moves[4].move.name}}</li>\n            <li>{{msg.payload.moves[5].move.name}}</li>\n            <li>{{msg.payload.moves[6].move.name}}</li>\n            <li>{{msg.payload.moves[7].move.name}}</li>\n            <li>{{msg.payload.moves[8].move.name}}</li>\n            <li>{{msg.payload.moves[9].move.name}}</li>\n            <li>{{msg.payload.moves[10].move.name}}</li>\n            <li>{{msg.payload.moves[11].move.name}}</li>\n            <li>{{msg.payload.moves[12].move.name}}</li>\n            <li>{{msg.payload.moves[13].move.name}}</li>\n            <li>{{msg.payload.moves[14].move.name}}</li>\n            <li>{{msg.payload.moves[15].move.name}}</li>\n            <li>{{msg.payload.moves[16].move.name}}</li>\n            <li>{{msg.payload.moves[17].move.name}}</li>\n            <li>{{msg.payload.moves[18].move.name}}</li>\n            <li>{{msg.payload.moves[19].move.name}}</li>\n            <li>{{msg.payload.moves[20].move.name}}</li>\n            <li>{{msg.payload.moves[21].move.name}}</li>\n            <li>{{msg.payload.moves[22].move.name}}</li>\n            <li>{{msg.payload.moves[23].move.name}}</li>\n            <li>{{msg.payload.moves[24].move.name}}</li>\n            <li>{{msg.payload.moves[25].move.name}}</li>\n            <li>{{msg.payload.moves[26].move.name}}</li>\n            <li>{{msg.payload.moves[27].move.name}}</li>\n            <li>{{msg.payload.moves[28].move.name}}</li>\n            <li>{{msg.payload.moves[29].move.name}}</li>\n            <li>{{msg.payload.moves[30].move.name}}</li>\n            <li>{{msg.payload.moves[31].move.name}}</li>\n            <li>{{msg.payload.moves[32].move.name}}</li>\n            <li>{{msg.payload.moves[33].move.name}}</li>\n            <li>{{msg.payload.moves[34].move.name}}</li>\n            <li>{{msg.payload.moves[35].move.name}}</li>\n            <li>{{msg.payload.moves[36].move.name}}</li>\n            <li>{{msg.payload.moves[37].move.name}}</li>\n            <li>{{msg.payload.moves[38].move.name}}</li>\n            <li>{{msg.payload.moves[39].move.name}}</li>\n            <li>{{msg.payload.moves[40].move.name}}</li>\n            <li>{{msg.payload.moves[41].move.name}}</li>\n            <li>{{msg.payload.moves[42].move.name}}</li>\n            <li>{{msg.payload.moves[43].move.name}}</li>\n            <li>{{msg.payload.moves[44].move.name}}</li>\n            <li>{{msg.payload.moves[45].move.name}}</li>\n            <li>{{msg.payload.moves[46].move.name}}</li>\n            <li>{{msg.payload.moves[47].move.name}}</li>\n            <li>{{msg.payload.moves[48].move.name}}</li>\n            <li>{{msg.payload.moves[49].move.name}}</li>\n            <li>{{msg.payload.moves[50].move.name}}</li>\n            <li>{{msg.payload.moves[51].move.name}}</li>\n            <li>{{msg.payload.moves[52].move.name}}</li>\n            <li>{{msg.payload.moves[53].move.name}}</li>\n            <li>{{msg.payload.moves[54].move.name}}</li>\n            <li>{{msg.payload.moves[55].move.name}}</li>\n            <li>{{msg.payload.moves[56].move.name}}</li>\n            <li>{{msg.payload.moves[57].move.name}}</li>\n            <li>{{msg.payload.moves[58].move.name}}</li>\n            <li>{{msg.payload.moves[59].move.name}}</li>\n            <li>{{msg.payload.moves[60].move.name}}</li>\n            <li>{{msg.payload.moves[61].move.name}}</li>\n            <li>{{msg.payload.moves[62].move.name}}</li>\n            <li>{{msg.payload.moves[63].move.name}}</li>\n            <li>{{msg.payload.moves[64].move.name}}</li>\n            <li>{{msg.payload.moves[65].move.name}}</li>\n            <li>{{msg.payload.moves[66].move.name}}</li>\n            <li>{{msg.payload.moves[67].move.name}}</li>\n            <li>{{msg.payload.moves[68].move.name}}</li>\n            <li>{{msg.payload.moves[69].move.name}}</li>\n            <li>{{msg.payload.moves[70].move.name}}</li>\n            <li>{{msg.payload.moves[71].move.name}}</li>\n            <li>{{msg.payload.moves[72].move.name}}</li>\n            <li>{{msg.payload.moves[73].move.name}}</li>\n            <li>{{msg.payload.moves[74].move.name}}</li>\n            <li>{{msg.payload.moves[75].move.name}}</li>\n            <li>{{msg.payload.moves[76].move.name}}</li>\n            <li>{{msg.payload.moves[77].move.name}}</li>\n            <li>{{msg.payload.moves[78].move.name}}</li>\n            <li>{{msg.payload.moves[79].move.name}}</li>\n            <li>{{msg.payload.moves[80].move.name}}</li>\n            \n        </ul>\n        \n    </div>\n    </div>\n</body>\n</html>\n\n\n",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 520,
+        "y": 200,
+        "wires": [
+            [
+                "f552610115c32294"
+            ]
+        ]
+    },
+    {
+        "id": "b1f31dd7d99a6ef3",
+        "type": "http request",
+        "z": "19a22018284eaacd",
+        "name": "",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "body",
+        "url": "https://pokeapi.co/api/v2/pokemon/squirtle",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "x": 330,
+        "y": 280,
+        "wires": [
+            [
+                "1d0f34d99243091c"
+            ]
+        ]
+    },
+    {
+        "id": "1d0f34d99243091c",
+        "type": "ui_template",
+        "z": "19a22018284eaacd",
+        "group": "2e257ac9c0d30e0f",
+        "name": "",
+        "order": 1,
+        "width": "0",
+        "height": "0",
+        "format": "\n\n<html>\n    <head>\n       <title>Squirtle</title> \n    </head>\n<body>\n    <h1>Squirtle</h1>\n    \n    <div>\n        <img src=\"/Squirtle.png\" /><br>\n        \n        <h3>Stats</h3>\n        <ul>\n            <li>{{msg.payload.stats[0].base_stat}} {{msg.payload.stats[0].stat.name}} </li>\n            <li>{{msg.payload.stats[1].base_stat}} {{msg.payload.stats[1].stat.name}} </li>\n            <li>{{msg.payload.stats[2].base_stat}} {{msg.payload.stats[2].stat.name}} </li>\n            <li>{{msg.payload.stats[3].base_stat}} {{msg.payload.stats[3].stat.name}} </li>\n            <li>{{msg.payload.stats[4].base_stat}} {{msg.payload.stats[4].stat.name}} </li>\n            <li>{{msg.payload.stats[5].base_stat}} {{msg.payload.stats[5].stat.name}} </li>\n            \n        </ul>\n        \n    <div>\n        <h3>Ataques</h3>\n        <ul>\n            <li>{{msg.payload.moves[0].move.name}}</li>\n            <li>{{msg.payload.moves[1].move.name}}</li>\n            <li>{{msg.payload.moves[2].move.name}}</li>\n            <li>{{msg.payload.moves[3].move.name}}</li>\n            <li>{{msg.payload.moves[4].move.name}}</li>\n            <li>{{msg.payload.moves[5].move.name}}</li>\n            <li>{{msg.payload.moves[6].move.name}}</li>\n            <li>{{msg.payload.moves[7].move.name}}</li>\n            <li>{{msg.payload.moves[8].move.name}}</li>\n            <li>{{msg.payload.moves[9].move.name}}</li>\n            <li>{{msg.payload.moves[10].move.name}}</li>\n            <li>{{msg.payload.moves[11].move.name}}</li>\n            <li>{{msg.payload.moves[12].move.name}}</li>\n            <li>{{msg.payload.moves[13].move.name}}</li>\n            <li>{{msg.payload.moves[14].move.name}}</li>\n            <li>{{msg.payload.moves[15].move.name}}</li>\n            <li>{{msg.payload.moves[16].move.name}}</li>\n            <li>{{msg.payload.moves[17].move.name}}</li>\n            <li>{{msg.payload.moves[18].move.name}}</li>\n            <li>{{msg.payload.moves[19].move.name}}</li>\n            <li>{{msg.payload.moves[20].move.name}}</li>\n            <li>{{msg.payload.moves[21].move.name}}</li>\n            <li>{{msg.payload.moves[22].move.name}}</li>\n            <li>{{msg.payload.moves[23].move.name}}</li>\n            <li>{{msg.payload.moves[24].move.name}}</li>\n            <li>{{msg.payload.moves[25].move.name}}</li>\n            <li>{{msg.payload.moves[26].move.name}}</li>\n            <li>{{msg.payload.moves[27].move.name}}</li>\n            <li>{{msg.payload.moves[28].move.name}}</li>\n            <li>{{msg.payload.moves[29].move.name}}</li>\n            <li>{{msg.payload.moves[30].move.name}}</li>\n            <li>{{msg.payload.moves[31].move.name}}</li>\n            <li>{{msg.payload.moves[32].move.name}}</li>\n            <li>{{msg.payload.moves[33].move.name}}</li>\n            <li>{{msg.payload.moves[34].move.name}}</li>\n            <li>{{msg.payload.moves[35].move.name}}</li>\n            <li>{{msg.payload.moves[36].move.name}}</li>\n            <li>{{msg.payload.moves[37].move.name}}</li>\n            <li>{{msg.payload.moves[38].move.name}}</li>\n            <li>{{msg.payload.moves[39].move.name}}</li>\n            <li>{{msg.payload.moves[40].move.name}}</li>\n            <li>{{msg.payload.moves[41].move.name}}</li>\n            <li>{{msg.payload.moves[42].move.name}}</li>\n            <li>{{msg.payload.moves[43].move.name}}</li>\n            <li>{{msg.payload.moves[44].move.name}}</li>\n            <li>{{msg.payload.moves[45].move.name}}</li>\n            <li>{{msg.payload.moves[46].move.name}}</li>\n            <li>{{msg.payload.moves[47].move.name}}</li>\n            <li>{{msg.payload.moves[48].move.name}}</li>\n            <li>{{msg.payload.moves[49].move.name}}</li>\n            <li>{{msg.payload.moves[50].move.name}}</li>\n            <li>{{msg.payload.moves[51].move.name}}</li>\n            <li>{{msg.payload.moves[52].move.name}}</li>\n            <li>{{msg.payload.moves[53].move.name}}</li>\n            <li>{{msg.payload.moves[54].move.name}}</li>\n            <li>{{msg.payload.moves[55].move.name}}</li>\n            <li>{{msg.payload.moves[56].move.name}}</li>\n            <li>{{msg.payload.moves[57].move.name}}</li>\n            <li>{{msg.payload.moves[58].move.name}}</li>\n            <li>{{msg.payload.moves[59].move.name}}</li>\n            <li>{{msg.payload.moves[60].move.name}}</li>\n            <li>{{msg.payload.moves[61].move.name}}</li>\n            <li>{{msg.payload.moves[62].move.name}}</li>\n            <li>{{msg.payload.moves[63].move.name}}</li>\n            <li>{{msg.payload.moves[64].move.name}}</li>\n            <li>{{msg.payload.moves[65].move.name}}</li>\n            <li>{{msg.payload.moves[66].move.name}}</li>\n            <li>{{msg.payload.moves[67].move.name}}</li>\n            <li>{{msg.payload.moves[68].move.name}}</li>\n            <li>{{msg.payload.moves[69].move.name}}</li>\n            <li>{{msg.payload.moves[70].move.name}}</li>\n            <li>{{msg.payload.moves[71].move.name}}</li>\n            <li>{{msg.payload.moves[72].move.name}}</li>\n            <li>{{msg.payload.moves[73].move.name}}</li>\n            <li>{{msg.payload.moves[74].move.name}}</li>\n            <li>{{msg.payload.moves[75].move.name}}</li>\n            <li>{{msg.payload.moves[76].move.name}}</li>\n            <li>{{msg.payload.moves[77].move.name}}</li>\n            <li>{{msg.payload.moves[78].move.name}}</li>\n            <li>{{msg.payload.moves[79].move.name}}</li>\n            <li>{{msg.payload.moves[80].move.name}}</li>\n            <li>{{msg.payload.moves[81].move.name}}</li>\n            <li>{{msg.payload.moves[82].move.name}}</li>\n            <li>{{msg.payload.moves[83].move.name}}</li>\n            <li>{{msg.payload.moves[84].move.name}}</li>\n            <li>{{msg.payload.moves[85].move.name}}</li>\n            <li>{{msg.payload.moves[86].move.name}}</li>\n            <li>{{msg.payload.moves[87].move.name}}</li>\n            <li>{{msg.payload.moves[88].move.name}}</li>\n            <li>{{msg.payload.moves[89].move.name}}</li>\n            <li>{{msg.payload.moves[90].move.name}}</li>\n            \n        </ul>\n        \n    </div>\n    </div>\n</body>\n</html>\n\n\n",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 520,
+        "y": 280,
+        "wires": [
+            [
+                "9ba1c7b71a0f47a6"
+            ]
+        ]
+    },
+    {
+        "id": "9ba1c7b71a0f47a6",
+        "type": "debug",
+        "z": "19a22018284eaacd",
+        "name": "squirtle",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 760,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "65869e56b685d014",
+        "type": "http request",
+        "z": "19a22018284eaacd",
+        "name": "",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "body",
+        "url": "https://pokeapi.co/api/v2/pokemon/charmander",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "x": 330,
+        "y": 360,
+        "wires": [
+            [
+                "87d1fe5f953e80a0"
+            ]
+        ]
+    },
+    {
+        "id": "87d1fe5f953e80a0",
+        "type": "ui_template",
+        "z": "19a22018284eaacd",
+        "group": "b1f1b26d60acf2a5",
+        "name": "",
+        "order": 1,
+        "width": "0",
+        "height": "0",
+        "format": "\n\n<html>\n    <head>\n       <title>Charmander</title> \n    </head>\n<body>\n    <h1>Charmander</h1>\n    \n    <div>\n        <img src=\"/Charmander_3.png\" /><br>\n        \n        <h3>Stats</h3>\n        <ul>\n            <li>{{msg.payload.stats[0].base_stat}} {{msg.payload.stats[0].stat.name}} </li>\n            <li>{{msg.payload.stats[1].base_stat}} {{msg.payload.stats[1].stat.name}} </li>\n            <li>{{msg.payload.stats[2].base_stat}} {{msg.payload.stats[2].stat.name}} </li>\n            <li>{{msg.payload.stats[3].base_stat}} {{msg.payload.stats[3].stat.name}} </li>\n            <li>{{msg.payload.stats[4].base_stat}} {{msg.payload.stats[4].stat.name}} </li>\n            <li>{{msg.payload.stats[5].base_stat}} {{msg.payload.stats[5].stat.name}} </li>\n            \n        </ul>\n        \n    <div>\n        <h3>Ataques</h3>\n        <ul>\n            <li>{{msg.payload.moves[0].move.name}}</li>\n            <li>{{msg.payload.moves[1].move.name}}</li>\n            <li>{{msg.payload.moves[2].move.name}}</li>\n            <li>{{msg.payload.moves[3].move.name}}</li>\n            <li>{{msg.payload.moves[4].move.name}}</li>\n            <li>{{msg.payload.moves[5].move.name}}</li>\n            <li>{{msg.payload.moves[6].move.name}}</li>\n            <li>{{msg.payload.moves[7].move.name}}</li>\n            <li>{{msg.payload.moves[8].move.name}}</li>\n            <li>{{msg.payload.moves[9].move.name}}</li>\n            <li>{{msg.payload.moves[10].move.name}}</li>\n            <li>{{msg.payload.moves[11].move.name}}</li>\n            <li>{{msg.payload.moves[12].move.name}}</li>\n            <li>{{msg.payload.moves[13].move.name}}</li>\n            <li>{{msg.payload.moves[14].move.name}}</li>\n            <li>{{msg.payload.moves[15].move.name}}</li>\n            <li>{{msg.payload.moves[16].move.name}}</li>\n            <li>{{msg.payload.moves[17].move.name}}</li>\n            <li>{{msg.payload.moves[18].move.name}}</li>\n            <li>{{msg.payload.moves[19].move.name}}</li>\n            <li>{{msg.payload.moves[20].move.name}}</li>\n            <li>{{msg.payload.moves[21].move.name}}</li>\n            <li>{{msg.payload.moves[22].move.name}}</li>\n            <li>{{msg.payload.moves[23].move.name}}</li>\n            <li>{{msg.payload.moves[24].move.name}}</li>\n            <li>{{msg.payload.moves[25].move.name}}</li>\n            <li>{{msg.payload.moves[26].move.name}}</li>\n            <li>{{msg.payload.moves[27].move.name}}</li>\n            <li>{{msg.payload.moves[28].move.name}}</li>\n            <li>{{msg.payload.moves[29].move.name}}</li>\n            <li>{{msg.payload.moves[30].move.name}}</li>\n            <li>{{msg.payload.moves[31].move.name}}</li>\n            <li>{{msg.payload.moves[32].move.name}}</li>\n            <li>{{msg.payload.moves[33].move.name}}</li>\n            <li>{{msg.payload.moves[34].move.name}}</li>\n            <li>{{msg.payload.moves[35].move.name}}</li>\n            <li>{{msg.payload.moves[36].move.name}}</li>\n            <li>{{msg.payload.moves[37].move.name}}</li>\n            <li>{{msg.payload.moves[38].move.name}}</li>\n            <li>{{msg.payload.moves[39].move.name}}</li>\n            <li>{{msg.payload.moves[40].move.name}}</li>\n            <li>{{msg.payload.moves[41].move.name}}</li>\n            <li>{{msg.payload.moves[42].move.name}}</li>\n            <li>{{msg.payload.moves[43].move.name}}</li>\n            <li>{{msg.payload.moves[44].move.name}}</li>\n            <li>{{msg.payload.moves[45].move.name}}</li>\n            <li>{{msg.payload.moves[46].move.name}}</li>\n            <li>{{msg.payload.moves[47].move.name}}</li>\n            <li>{{msg.payload.moves[48].move.name}}</li>\n            <li>{{msg.payload.moves[49].move.name}}</li>\n            <li>{{msg.payload.moves[50].move.name}}</li>\n            <li>{{msg.payload.moves[51].move.name}}</li>\n            <li>{{msg.payload.moves[52].move.name}}</li>\n            <li>{{msg.payload.moves[53].move.name}}</li>\n            <li>{{msg.payload.moves[54].move.name}}</li>\n            <li>{{msg.payload.moves[55].move.name}}</li>\n            <li>{{msg.payload.moves[56].move.name}}</li>\n            <li>{{msg.payload.moves[57].move.name}}</li>\n            <li>{{msg.payload.moves[58].move.name}}</li>\n            <li>{{msg.payload.moves[59].move.name}}</li>\n            <li>{{msg.payload.moves[60].move.name}}</li>\n            <li>{{msg.payload.moves[61].move.name}}</li>\n            <li>{{msg.payload.moves[62].move.name}}</li>\n            <li>{{msg.payload.moves[63].move.name}}</li>\n            <li>{{msg.payload.moves[64].move.name}}</li>\n            <li>{{msg.payload.moves[65].move.name}}</li>\n            <li>{{msg.payload.moves[66].move.name}}</li>\n            <li>{{msg.payload.moves[67].move.name}}</li>\n            <li>{{msg.payload.moves[68].move.name}}</li>\n            <li>{{msg.payload.moves[69].move.name}}</li>\n            <li>{{msg.payload.moves[70].move.name}}</li>\n            <li>{{msg.payload.moves[71].move.name}}</li>\n            <li>{{msg.payload.moves[72].move.name}}</li>\n            <li>{{msg.payload.moves[73].move.name}}</li>\n            <li>{{msg.payload.moves[74].move.name}}</li>\n            <li>{{msg.payload.moves[75].move.name}}</li>\n            <li>{{msg.payload.moves[76].move.name}}</li>\n            <li>{{msg.payload.moves[77].move.name}}</li>\n            <li>{{msg.payload.moves[78].move.name}}</li>\n            <li>{{msg.payload.moves[79].move.name}}</li>\n            <li>{{msg.payload.moves[80].move.name}}</li>\n            <li>{{msg.payload.moves[81].move.name}}</li>\n            <li>{{msg.payload.moves[82].move.name}}</li>\n            <li>{{msg.payload.moves[83].move.name}}</li>\n            <li>{{msg.payload.moves[84].move.name}}</li>\n            <li>{{msg.payload.moves[85].move.name}}</li>\n            <li>{{msg.payload.moves[86].move.name}}</li>\n            <li>{{msg.payload.moves[87].move.name}}</li>\n            <li>{{msg.payload.moves[88].move.name}}</li>\n            <li>{{msg.payload.moves[89].move.name}}</li>\n            <li>{{msg.payload.moves[90].move.name}}</li>\n            \n        </ul>\n        \n    </div>\n    </div>\n</body>\n</html>\n\n\n",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 516,
+        "y": 360,
+        "wires": [
+            [
+                "d16213eb1091a143"
+            ]
+        ]
+    },
+    {
+        "id": "d16213eb1091a143",
+        "type": "debug",
+        "z": "19a22018284eaacd",
+        "name": "charmander",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 770,
+        "y": 360,
+        "wires": []
+    }
+]
